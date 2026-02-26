@@ -1,0 +1,437 @@
+Date: Wed, 25 Feb 2026 15:43:36 +0000 (UTC)
+Message-ID: <1467385980.39.1772034216979@98a12c10bdeb>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_38_175053393.1772034216979"
+
+------=_Part_38_175053393.1772034216979
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Atividade Semana 3 - Planejamento de Testes</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Atividade Semana 3 - Planejamento de Testes</h1>
+    <div class=3D"Section1">
+        <p local-id=3D"c219f11c-8a1b-493d-b991-07a07c4c0ca1">SQUAD 1: Andre=
+y Felipe de Lima; Daniela Siana Pabis; Eduardo Neves de Souza; Jo=C3=A3o Pe=
+dro de Jesus Perin.</p>
+<p local-id=3D"42f2eb46-266a-41d1-8a1c-693289e491a7" style=3D"text-align: c=
+enter;"><strong>Planejamento de Testes:</strong></p>
+<p local-id=3D"c8439f4c-2044-4e70-b5fb-7a05bbe0d338" style=3D"text-align: c=
+enter;"></p>
+<p local-id=3D"2c42b87c-1935-4cbd-b949-61b5495e275c"><strong>1 - Definir um=
+ Escopo Claro de Testes:</strong><br>
+Estabelecer o escopo de testes =C3=A9 fundamental para evitar falsas expect=
+ativas e minimizar o risco de retrabalho ou conflitos. Um escopo bem defini=
+do ajuda a manter o controle sobre o que ser=C3=A1 testado, prevenindo mal-=
+entendidos durante o processo de desenvolvimento.</p>
+<p local-id=3D"80517dd6-9e48-4d9e-bd95-5185e9734d0f">Exemplo:<br>
+O cliente deduz que =E2=80=9Ctestar login=E2=80=9D inclui testar a recupera=
+=C3=A7=C3=A3o de senha, mas isso n=C3=A3o estava no escopo, gerando conflit=
+o e retrabalho.</p>
+<p local-id=3D"f1946d80-5016-4e46-a528-f4a4b7196686">O que deve haver:</p>
+<p local-id=3D"6503e78f-0211-46f2-8a68-4f5b8a849b39">Funcionalidades inclu=
+=C3=ADdas e exclu=C3=ADdas;</p>
+<p local-id=3D"9268ec2f-da21-4cc5-a594-6e806935fdbf">Ambiente de teste;</p>
+<p local-id=3D"3a34f92a-21a8-4ae3-be42-7a70fe4ddc2e">Tipos de testes a sere=
+m realizados.</p>
+<p local-id=3D"5d87ea4f-c2cc-4aa0-8028-ed2d917fe430"><strong>2 - Compreende=
+r os Requisitos Funcionais e N=C3=A3o Funcionais:</strong><br>
+=C3=89 crucial entender o que o sistema deve fazer (requisitos funcionais) =
+e como ele deve se comportar (requisitos n=C3=A3o funcionais) para criar bo=
+ns testes e garantir que o produto final atenda =C3=A0s expectativas.</p>
+<p local-id=3D"1a68f363-6f20-42c6-ad0d-7a3413f9e622">Exemplo:<br>
+Requisito Funcional: =E2=80=9CUsu=C3=A1rio deve conseguir efetuar pagamento=
+ via PIX.=E2=80=9D<br>
+Requisito N=C3=A3o Funcional: =E2=80=9CA resposta da transa=C3=A7=C3=A3o de=
+ve levar, no m=C3=A1ximo, 5 segundos.=E2=80=9D</p>
+<p local-id=3D"dc5bd653-f6ce-409c-8bb1-90820027b6ad"><strong>3 - Crit=C3=A9=
+rios de Aceita=C3=A7=C3=A3o Claros (Hard Requirements):</strong><br>
+Crit=C3=A9rios de aceita=C3=A7=C3=A3o bem definidos garantem que os testes =
+sejam objetivos e evitem subjetividades. Eles ajudam a determinar quando o =
+produto est=C3=A1 pronto para ser entregue.</p>
+<p local-id=3D"89d928cd-14d5-440e-b5b7-f0ace7288ac5">Exemplo:<br>
+Crit=C3=A9rio vago: O sistema deve ser r=C3=A1pido.<br>
+Crit=C3=A9rio claro: O sistema deve carregar a tela em at=C3=A9 2 segundos.=
+</p>
+<p local-id=3D"45e99c12-8459-49cc-943f-4a0369627cae"><strong>4 - Identifica=
+=C3=A7=C3=A3o de Riscos:</strong><br>
+A identifica=C3=A7=C3=A3o de riscos ajuda a priorizar os testes, garantindo=
+ que os testes mais cr=C3=ADticos sejam feitos primeiro, considerando o imp=
+acto de falhas.</p>
+<p local-id=3D"0c893c08-6696-4e95-a3fa-f658b5363745">Exemplo:<br>
+Alta prioridade: Permitir pagamentos. M=C3=A9dia prioridade: Permitir notif=
+ica=C3=A7=C3=B5es.<br>
+Baixa prioridade: Permitir troca de foto do perfil.</p>
+<p local-id=3D"2ef6b9fa-6ed8-4523-af06-86553476aac1"><strong>5 - Definir Cr=
+onograma e Esfor=C3=A7o:</strong><br>
+Definir um cronograma claro e estimar o esfor=C3=A7o necess=C3=A1rio para a=
+ execu=C3=A7=C3=A3o dos testes ajuda a alinhar expectativas com clientes e =
+gestores e a prever atrasos.</p>
+<p local-id=3D"8f0c0587-6f22-4cd2-a654-205f2d4e9a94">Exemplo:<br>
+2 testadores com 35 casos de teste (em m=C3=A9dia, 30 minutos por caso). Um=
+ prazo realista seria cerca de 2 dias.</p>
+<p local-id=3D"fe13284b-4d19-488f-a8ac-c5aa07809631"><strong>6 - MVQ =E2=80=
+=93 M=C3=ADnima Qualidade Vi=C3=A1vel:</strong><br>
+O MVQ define o n=C3=ADvel m=C3=ADnimo de qualidade necess=C3=A1rio para que=
+ o produto seja aceito pelo cliente e possa ser lan=C3=A7ado no mercado, se=
+m comprometer a entrega.</p>
+<p local-id=3D"12dfbf8b-9cbe-4f34-a4b2-787968340df0">Exemplo:<br>
+Aplicativo banc=C3=A1rio: O usu=C3=A1rio deve poder consultar saldo, extrat=
+o e fazer transa=C3=A7=C3=B5es simples, sem falhas.</p>
+<p local-id=3D"8549b4ab-8985-4b09-9e70-c7e6233a3435"><strong>7 - Gest=C3=A3=
+o da Comunica=C3=A7=C3=A3o (Quem comunica, como e quando):</strong><br>
+Estabelecer uma estrat=C3=A9gia de comunica=C3=A7=C3=A3o objetiva ajuda a e=
+vitar ru=C3=ADdos e atrasos nas decis=C3=B5es durante o processo de teste.<=
+/p>
+<p local-id=3D"b9c95085-33e7-46dc-a80d-6a78c1b5f067">Exemplo:<br>
+Bug / problema cr=C3=ADtico: comunicar imediatamente ao respons=C3=A1vel.<b=
+r>
+Ajuste pequeno: comunicar na daily.</p>
+<p local-id=3D"ddf92353-5b0a-4303-a039-63aaaefdba2c"><strong>8 - Planejar o=
+ Tipo de Teste Necess=C3=A1rio:</strong><br>
+=C3=89 importante planejar qual tipo de teste ser=C3=A1 necess=C3=A1rio par=
+a cada sistema, considerando suas caracter=C3=ADsticas e as =C3=A1reas de m=
+aior risco.</p>
+<p local-id=3D"b4c9d2b5-81ac-4c20-a4db-265a68dad944">Exemplo:<br>
+Aplicativo de jogos: Foco em testes de desempenho;<br>
+Sistema banc=C3=A1rio: Foco em seguran=C3=A7a, testes de regress=C3=A3o e c=
+arga.</p>
+<p local-id=3D"1f0d2670-01be-4f7a-ad4b-f8d1a8328cc5"><strong>9 - Planejar A=
+utoma=C3=A7=C3=A3o e Testes Manuais:</strong><br>
+A automa=C3=A7=C3=A3o reduz esfor=C3=A7os repetitivos e aumenta a velocidad=
+e, mas os testes manuais continuam sendo essenciais para explorar novas fun=
+cionalidades, sendo necess=C3=A1rio balancear ambos.</p>
+<p local-id=3D"1c47f8d6-cf03-46aa-9256-dabbb0f07e0a">Exemplo:<br>
+Automa=C3=A7=C3=A3o: testes de regress=C3=A3o em sob funcionalidades antiga=
+s;<br>
+Manual: testes manuais de uma nova funcionalidade de "Transfer=C3=AAncia vi=
+a PIX".</p>
+<p local-id=3D"9fa5a1d4-2124-48ee-a02e-230c8cf562d8"><strong>10 - Paradoxo =
+do Pesticida:</strong></p>
+<p local-id=3D"e1b71d41-5e09-4bcd-a2d8-d27205fd995c">Testes repetitivos n=
+=C3=A3o identificam novos erros. Atualizar os casos de teste e adicionar ce=
+n=C3=A1rios alternativos =C3=A9 essencial para garantir que novas falhas se=
+jam descobertas e resolvidas.</p>
+<p local-id=3D"19bfba3a-bdf5-4afa-9c7e-5dff1464b75d">Exemplo:<br>
+Estabelecer cen=C3=A1rios alternativos para testes.</p>
+<p local-id=3D"aba5b08b-181c-4d92-b856-5fc76099ac0f"><strong>11 - Indicador=
+es de Qualidade (KPIs):</strong><br>
+KPIs ajudam a medir a evolu=C3=A7=C3=A3o da qualidade do software, fornecen=
+do dados quantitativos para melhorar o processo de teste.</p>
+<p local-id=3D"8c87a978-5300-4d73-960d-731befe1166d">Exemplos:<br>
+N=C3=BAmero de de falhas encontradas;<br>
+Tempo m=C3=A9dio para corre=C3=A7=C3=A3o.</p>
+<p local-id=3D"f3d4ed8a-4e93-452a-8230-78a1ec52194a"><strong>12 - ISO/IEC 2=
+5010 (Modelo de Qualidade):</strong><br>
+O modelo ISO/IEC 25010 define os atributos essenciais para garantir a quali=
+dade de um sistema, oferecendo uma base de avalia=C3=A7=C3=A3o do software.=
+</p>
+<p local-id=3D"9e76d51b-1c2c-4d2b-820f-e39705741ed4">Exemplos de atributos:=
+<br>
+Funcionalidade / Adequa=C3=A7=C3=A3o: Verifica se o sistema faz o que foi p=
+edido de forma correta e completa;<br>
+Usabilidade: Facilidade de uso e aprendizado r=C3=A1pido;<br>
+Compatibilidade: Capacidade de funcionar com outros sistemas;<br>
+Confiabilidade: Estabilidade, poucos erros e recupera=C3=A7=C3=A3o de falha=
+s;<br>
+Efici=C3=AAncia: Rapidez e bom uso de recursos;<br>
+Manutenibilidade: Facilidade de alterar e evoluir o sistema;<br>
+Portabilidade: Capacidade de rodar em diferentes ambientes;<br>
+Seguran=C3=A7a: Prote=C3=A7=C3=A3o de dados, controle de acesso e preven=C3=
+=A7=C3=A3o de ataques.</p>
+<p local-id=3D"82fee79f-9550-46fc-b74d-05b30738fd29"><strong>13 - Regra 10 =
+de Myers:</strong><br>
+Encontrar defeitos o mais r=C3=A1pido poss=C3=ADvel =C3=A9 essencial, pois =
+quanto mais tarde o defeito =C3=A9 identificado, maior ser=C3=A1 o custo de=
+ corre=C3=A7=C3=A3o.</p>
+<p local-id=3D"7cc362b4-726c-4061-a432-0c50a8e7f5c5">Exemplo:</p>
+<p local-id=3D"1f7c7fbb-a5ad-4c35-8ca2-b43ba25754a8">Bug encontrado em dese=
+nvolvimento: 1x custo;</p>
+<p local-id=3D"c43fbd0d-7cb1-4bac-85b3-bce82bf2d33a">Bug encontrado em homo=
+loga=C3=A7=C3=A3o: 10x custo;</p>
+<p local-id=3D"dd3b7fe5-1701-495e-ae7f-984578ea4a28">Bug encontrado em prod=
+u=C3=A7=C3=A3o: 100x custo.</p>
+<p local-id=3D"fd436ca4-11f9-4816-b444-89217fbec737"><strong>14 - Princ=C3=
+=ADpios Fundamentais de Teste de Software:</strong></p>
+<p local-id=3D"abc83e38-079c-4d13-9ec7-7bd8a43dadd2">Elementos importantes =
+que devem estar alinhados ao profissional de qualidade e testador para o =
+=C3=AAxito do projeto.</p>
+<p local-id=3D"9efd95b0-0e24-40a2-8fe4-b4af3f63fb04">a. Demonstra=C3=A7=C3=
+=A3o de Defeitos:</p>
+<p local-id=3D"0828cbae-66c1-4017-a06d-585f345571f8">O teste demonstra a ex=
+ist=C3=AAncia de defeitos, mas n=C3=A3o pode provar que eles n=C3=A3o exist=
+em.</p>
+<p local-id=3D"4b5008fc-229b-4d0d-84c1-afbe0a0ad4eb">b. Inviabilidade do Te=
+ste Exaustivo:</p>
+<p local-id=3D"f5f6e3c1-d949-4c19-b031-402fec2ee92c">Testar tudo n=C3=A3o =
+=C3=A9 vi=C3=A1vel, exceto em casos triviais. O foco deve ser em riscos e p=
+rioridades.</p>
+<p local-id=3D"9fd719fc-29c7-4586-8d3a-54e73c0c9192">c. Testes Paralelos ao=
+ Desenvolvimento:</p>
+<p local-id=3D"3a971e63-20f8-4860-96ed-74f9594296a5">Os testes devem ser re=
+alizados em paralelo ao desenvolvimento do software, n=C3=A3o apenas ap=C3=
+=B3s a conclus=C3=A3o.</p>
+<p local-id=3D"f9db4541-278e-48d6-9a1e-4064461ebd41">d. Agrupamento de Defe=
+itos:</p>
+<p local-id=3D"ac78768f-3c91-4e4d-bb80-578a9f254418">Os defeitos normalment=
+e se concentram em =C3=A1reas espec=C3=ADficas do sistema.</p>
+<p local-id=3D"c074cbeb-1264-4810-b511-3f0460f5031d">e. Contexto dos Testes=
+:</p>
+<p local-id=3D"5d57bc27-4111-40ce-816f-e50f9c6914ec">Os testes devem ser re=
+alizados de forma diferente, conforme o contexto do projeto.</p>
+<p local-id=3D"6d12ff8f-a797-4375-8a15-bdd26752dfac"><strong>15 - Prepara=
+=C3=A7=C3=A3o do Ambiente de Testes:</strong><br>
+Garantir que o ambiente de testes esteja adequadamente configurado, isolado=
+ e com dados representativos =C3=A9 fundamental para a confiabilidade dos r=
+esultados.</p>
+<p local-id=3D"ed381b12-8fb0-4864-bb74-d445232ec774"><em>Adicional:</em></p=
+>
+<p local-id=3D"1715bd79-f0be-48c4-a5ee-3b1ed50fb558">A conduta =C3=A9 um do=
+s pontos-chave para que um novo trabalho em equipe tenha =C3=AAxito. Nesse =
+sentido, =C3=A9 importante ressaltar o comportamento do indiv=C3=ADduo para=
+ um bom relacionamento interpessoal. Embora n=C3=A3o fa=C3=A7a parte direta=
+mente do planejamento de testes, vale-se destacar:</p>
+<p local-id=3D"d8df3302-a596-4577-b2fb-05a3061b9fcb"><strong>16 - Atitudes =
+de um Profissional de Qualidade:</strong><br>
+Um bom profissional de qualidade precisa demonstrar v=C3=A1rias atitudes, c=
+omo: foco, boa comunica=C3=A7=C3=A3o e capacidade de negocia=C3=A7=C3=A3o. =
+Essas caracter=C3=ADsticas s=C3=A3o essenciais e devem estar alinhadas para=
+ que o planejamento ocorra sem mais problemas.</p>
+<p local-id=3D"ce45037e-bc33-4a70-8887-8c030a1b651a">Exemplos:</p>
+<p local-id=3D"0cd9e68e-8cdb-425e-851d-f04cdabd35fd">Press=C3=A3o Organizac=
+ional: Manter a qualidade com prazos menores;</p>
+<p local-id=3D"496d86f7-b844-4961-862c-a09375e17558">Comprometido x Envolvi=
+do: Comprometido assume responsabilidades, envolvido apenas participa;</p>
+<p local-id=3D"482a1194-512c-4d58-9e05-47319ec93b97">Autogerenciamento: Org=
+aniza=C3=A7=C3=A3o, foco e controle do tempo;</p>
+<p local-id=3D"454079a1-84d6-4383-9740-960af43f7411">Comunica=C3=A7=C3=A3o:=
+ Clareza verbal e coer=C3=AAncia n=C3=A3o verbal;</p>
+<p local-id=3D"62b341a9-39e1-41d9-ad17-6c09425e48f6">Negocia=C3=A7=C3=A3o (=
+ganha-ganha): Acordos que beneficiam todos;</p>
+<p local-id=3D"ffa094d4-bc29-4082-9fff-098e182f9d6c">Produtividade: Prioriz=
+ar tarefas e reduzir distra=C3=A7=C3=B5es;</p>
+<p local-id=3D"5f489542-4fab-41cc-b865-b5b712905b71">Fluxo Cont=C3=ADnuo: E=
+vitar interrup=C3=A7=C3=B5es e gargalos.</p>
+    </div>
+</body>
+</html>
+------=_Part_38_175053393.1772034216979--

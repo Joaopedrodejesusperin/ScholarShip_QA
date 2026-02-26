@@ -1,0 +1,1330 @@
+Date: Wed, 25 Feb 2026 15:49:57 +0000 (UTC)
+Message-ID: <1852227459.15.1772034597723@96a38ea5b9aa>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_14_1138162690.1772034597722"
+
+------=_Part_14_1138162690.1772034597722
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Challenge 01 PLANO DE TESTE - Spotify</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Challenge 01 PLANO DE TESTE - Spotify</h1>
+    <div class=3D"Section1">
+        <p local-id=3D"aec37f4c-4720-4875-ab5d-d3ff27ca79d3"><strong>Challe=
+nger 1 | por: Jo=C3=A3o Pedro de Jesus Perin</strong></p>
+<p local-id=3D"b11210fa-ddfc-48b5-9129-8bc57c5fd556"><strong>SQUAD 1: Unit =
+to Unity</strong></p>
+<ol start=3D"1" local-id=3D"f7012781-6388-4db4-8b37-4bd8187a287e">
+<li local-id=3D"ce149f2c-5918-4f32-93f1-877f277d21c9">
+<p local-id=3D"33670b87-35f8-48a0-8ca7-226793c5da93"><strong>Escopo:</stron=
+g></p></li>
+</ol>
+<p local-id=3D"d1c4b168-5584-4a00-a678-a22bd2ab76ef"><strong>Identifica=C3=
+=A7=C3=A3o do Projeto:</strong></p>
+<p local-id=3D"2c2a02d8-93a4-492c-8359-653b4d77c76c">Ser=C3=A3o realizados =
+testes explorat=C3=B3rios na aplica=C3=A7=C3=A3o web do site Spotify, com f=
+oco em garantir que funcionalidades essenciais, como busca, navega=C3=A7=C3=
+=A3o e reprodu=C3=A7=C3=A3o de conte=C3=BAdo, funcionem de forma consistent=
+e, clara e confi=C3=A1vel para o usu=C3=A1rio final.</p>
+<p local-id=3D"b674040b-8e39-4809-b4cf-9bda5fa83a1d"><strong>Escopo do Test=
+e:</strong></p>
+<p local-id=3D"e39e186a-874d-42b0-b63a-b26987ee925c"><strong>Reprodu=C3=A7=
+=C3=A3o / =C3=81rea Abrangida (dentro do escopo):</strong></p>
+<ul local-id=3D"51cc86c8-e620-4658-860f-a495d35a0186">
+<li local-id=3D"3553966e-7607-4b0a-8ccf-e3bc60849b12">
+<p local-id=3D"17c0d1c4-3701-4230-902f-05468ffadb6c">Acessar o site do Spot=
+ify;</p></li>
+<li local-id=3D"68256295-1fc0-4724-a790-6261514d7889">
+<p local-id=3D"047d4916-596a-40f8-aa17-b757efb316da">Utilizar o campo de bu=
+sca de m=C3=BAsicas, artistas e playlists;</p></li>
+<li local-id=3D"6973ed93-88b6-4a14-a234-a2a04154f01a">
+<p local-id=3D"722dfd07-105c-48a3-b163-20e05ea5708d">Navega=C3=A7=C3=A3o po=
+r categorias e se=C3=A7=C3=B5es;</p></li>
+<li local-id=3D"e9667ac4-be89-4a0a-a650-e2c27c8583ff">
+<p local-id=3D"a83d8317-42b6-4ff8-a975-56515ca20cba">Acesso =C3=A0 p=C3=A1g=
+ina de artistas e playlists;</p></li>
+<li local-id=3D"bac7a2e9-b7bd-41ba-8ed2-6a7422b0d312">
+<p local-id=3D"cfc850fc-609c-4646-9b76-e398cd495644">Mensagens exibidas ao =
+usu=C3=A1rio;</p></li>
+<li local-id=3D"e68cc935-f7a4-4f9b-8701-b9521cc9c273">
+<p local-id=3D"302e2a3f-a5df-4561-912d-12cac438aeb0">Alterar dados inserido=
+s e observar o comportamento do sistema;</p></li>
+</ul>
+<p local-id=3D"ee6e619a-dbb9-4351-84ee-025984f2a428"><strong>Evid=C3=AAncia=
+s consideradas no escopo:</strong></p>
+<ul local-id=3D"aa3ebf12-c42a-4f91-bbaf-109ad0d12534">
+<li local-id=3D"689bec95-d0d3-4d8e-b712-d4d752ec0dec">
+<p local-id=3D"c2f52bf4-0b86-49c8-bec9-465a68efcaca">Telas de resultados de=
+ busca;</p></li>
+<li local-id=3D"71a3e59e-5fda-43e0-8b76-8ea8db448326">
+<p local-id=3D"ed5463e7-4956-42db-ad6c-55261a76115d">Telas com filtros apli=
+cados;</p></li>
+<li local-id=3D"920175b3-dfc1-4318-a95a-d6f691d95ae6">
+<p local-id=3D"8fbf37d2-63db-45ca-9144-ce48a800bef8">Mensagens de erro, ale=
+rtas ou aus=C3=AAncia de valida=C3=A7=C3=B5es vis=C3=ADveis ao usu=C3=A1rio=
+;</p></li>
+</ul>
+<p local-id=3D"ec1a9e05-4f1a-4a5a-a7ae-712134ef9396"><em>(As evid=C3=AAncia=
+s ser=C3=A3o utilizadas para an=C3=A1lise visual e comportamental, sem aces=
+so a dados internos da plataforma.)</em></p>
+<p local-id=3D"b0bb793a-c6ce-4c9e-ad97-141c4d899991"><strong>Ambiente de Te=
+stes:</strong></p>
+<ul local-id=3D"398e3832-01b0-499d-8ed7-9b0da4d57374">
+<li local-id=3D"8a72ea09-ea92-47a6-a58f-26786509ac1d">
+<p local-id=3D"aa22fd7f-4dd8-49ea-8fab-9de4aad4d411">Navegador: Google Chro=
+me (vers=C3=A3o atual);</p></li>
+<li local-id=3D"4ed8a32b-d934-4b61-96c5-7de73f3d243e">
+<p local-id=3D"6ea61426-afdd-452a-8518-ac19e0d7c854">Tipo de acesso: Deskto=
+p;</p></li>
+<li local-id=3D"84785f3d-75e5-4f72-83c6-b25f6f0ce1dd">
+<p local-id=3D"a0e552df-4bd4-42a8-9e91-656458a38ca4">Sistema Operacional: W=
+indows 10 ou Windows 11;</p></li>
+</ul>
+<ol start=3D"2" local-id=3D"f88f8c11-1b92-40e6-843f-97264d6f8500">
+<li local-id=3D"aca1161c-3406-4a19-b0ec-9d007d95bf83">
+<p local-id=3D"14f79d74-c47e-471b-97b1-3a3365f61740"><strong>Objetivos</str=
+ong></p></li>
+</ol>
+<p local-id=3D"58e6c70e-2d46-42a1-a132-07117e66becf"><strong>Objetivo Geral=
+:</strong></p>
+<p local-id=3D"bc4d9ff6-4a1d-4388-8fd3-3394ede6e892">Avaliar a qualidade do=
+ site do Spotify por meio de testes explorat=C3=B3rios, identificando falha=
+s funcionais, problemas de usabilidade e riscos que possam impactar a exper=
+i=C3=AAncia do usu=C3=A1rio.</p>
+<p local-id=3D"ed40cfef-2471-4662-aa9b-cdd7c8fef5d4"><strong>Objetivos Espe=
+c=C3=ADficos:</strong></p>
+<ul local-id=3D"dc5f0980-1d6f-4cfa-85ce-4127b2984cf8">
+<li local-id=3D"877bc857-352d-4a06-b087-df18350642ee">
+<p local-id=3D"a2cd723a-4990-4def-bcb5-b2b6e801d770"><strong>Encontrar bugs=
+ e comportamentos inesperados:</strong> Descobrir problemas que possam atra=
+palhar o usu=C3=A1rio, seja em funcionalidades, na interface ou na navega=
+=C3=A7=C3=A3o pela aplica=C3=A7=C3=A3o;</p></li>
+<li local-id=3D"63934aae-7088-45b8-a4fd-2c31aef8a5f6">
+<p local-id=3D"574929c9-b604-48ae-8d80-2256035696b7"><strong>Testar os flux=
+os mais importantes:</strong> Garantir que os caminhos principais que os us=
+u=C3=A1rios percorrem na aplica=C3=A7=C3=A3o estejam funcionando corretamen=
+te e sem surpresas desagrad=C3=A1veis;</p></li>
+<li local-id=3D"807c1618-b52f-4608-a882-80dddc76b6b9">
+<p local-id=3D"98250755-0f59-4061-bf1d-acc90d7768cf"><strong>Avaliar a usab=
+ilidade:</strong> Avaliar a experi=C3=AAncia de quem usa a aplica=C3=A7=C3=
+=A3o - se a interface =C3=A9 clara, se as informa=C3=A7=C3=B5es fazem senti=
+do e se =C3=A9 f=C3=A1cil de navegar;</p></li>
+<li local-id=3D"935a5b1a-2843-4324-8ce3-1f4e33ed78f4">
+<p local-id=3D"b51d45c4-9bd0-4b00-95de-2d05a9fa9334"><strong>Colocar em pr=
+=C3=A1tica as t=C3=A9cnicas explorat=C3=B3rias:</strong> aplicar duas t=C3=
+=A9cnicas espec=C3=ADficas de teste explorat=C3=B3rio, registrando tudo que=
+ encontrar, as evid=C3=AAncias e o que aprendeu no processo;</p></li>
+</ul>
+<ol start=3D"3" local-id=3D"bebe23a5-96e2-4a11-89f8-4093002be879">
+<li local-id=3D"09ac6ae8-2ceb-4ce8-a982-e6548927e4b7">
+<p local-id=3D"b2e48907-2878-43d8-b007-0c13e9d7ac1e"><strong>Riscos de Prod=
+uto (Qualidade da Aplica=C3=A7=C3=A3o)</strong></p></li>
+</ol>
+<p local-id=3D"2b8af91d-3788-4b9e-ab12-b405a6d43275">Estes riscos impactam =
+diretamente a experi=C3=AAncia do usu=C3=A1rio final e a funcionalidade do =
+sistema.</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"f2=
+7cee67-60fe-4fd9-a3c3-e5050e966739" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"63ea20eb-02a0-460b-a32e-fd34625c25cd">
+<td data-highlight-colour=3D"#f0f1f2" data-local-id=3D"54140b6d-0a87-4867-9=
+87f-c1da9bcccdb4" class=3D"confluenceTd">
+<p local-id=3D"b2d81a69-b2d5-4764-a01a-45e2128a4e1c"><strong>Risco</strong>=
+</p></td>
+<td data-highlight-colour=3D"#f0f1f2" data-local-id=3D"bbf5060c-d4dd-40b6-b=
+8dc-1dcd3ad0bde8" class=3D"confluenceTd">
+<p local-id=3D"ca37100c-d8d1-4df6-83d9-f1eb114fdf2e"><strong>Descri=C3=A7=
+=C3=A3o</strong></p></td>
+<td data-highlight-colour=3D"#f0f1f2" data-local-id=3D"8b960832-d2c1-4364-a=
+d40-d3970ab63549" class=3D"confluenceTd">
+<p local-id=3D"d82d67d6-e741-4e64-a076-01c1b6b397d4"><strong>Impacto</stron=
+g></p></td>
+<td data-highlight-colour=3D"#f0f1f2" data-local-id=3D"35ea26d5-9b48-4324-b=
+651-a6557e0b970d" class=3D"confluenceTd">
+<p local-id=3D"307514e1-0e34-40e3-a4b7-6b4af639699a"><strong>Mitiga=C3=A7=
+=C3=A3o</strong></p></td>
+</tr>
+<tr data-local-id=3D"f2399116-2423-4408-953a-ca13b0bbad4d">
+<td data-highlight-colour=3D"white" data-local-id=3D"ff83369c-2be4-475d-80d=
+0-3f30052dd52c" class=3D"confluenceTd">
+<p local-id=3D"0b8af552-1022-40da-a813-7ea608aeea16">Incompatibilidade de N=
+avegadores</p></td>
+<td data-highlight-colour=3D"white" data-local-id=3D"cb7ddf10-a5c5-4842-b37=
+e-5aa6337439f6" class=3D"confluenceTd">
+<p local-id=3D"38b7c5ae-771b-4961-aa36-0d9a4fba2a74">A aplica=C3=A7=C3=A3o =
+pode apresentar comportamentos inconsistentes em diferentes browsers (Chrom=
+e, Firefox, Safari, Edge).</p></td>
+<td data-highlight-colour=3D"white" data-local-id=3D"611ac94e-3f11-4760-884=
+3-06b7a862ac48" class=3D"confluenceTd">
+<p local-id=3D"5d35d826-40e1-4cb6-9bc8-ed6208fc0f29">Alto</p></td>
+<td data-highlight-colour=3D"white" data-local-id=3D"858e6e2e-0922-42b0-a3c=
+3-cf307c3c67b3" class=3D"confluenceTd">
+<p local-id=3D"79249f4e-3b7e-40b8-8fed-16bdcdbdf940">Definir uma matriz de =
+navegadores priorit=C3=A1rios para os testes explorat=C3=B3rios.</p></td>
+</tr>
+<tr data-local-id=3D"5eb8d4b4-3da5-426b-a4e1-2e588913b915">
+<td data-highlight-colour=3D"white" data-local-id=3D"a1e2a9d9-7143-4506-b67=
+b-d6426f15183a" class=3D"confluenceTd">
+<p local-id=3D"f0120b36-67f5-45ab-b405-a12b99e082e2">Falhas de Responsivida=
+de</p></td>
+<td data-highlight-colour=3D"white" data-local-id=3D"38e2e75d-4e05-4623-91b=
+a-3b563288a34b" class=3D"confluenceTd">
+<p local-id=3D"53a978b7-c9f9-4c82-a3b3-e9782ca15995">Elementos da interface=
+ podem quebrar ou ficar sobrepostos em resolu=C3=A7=C3=B5es mobile ou table=
+ts.</p></td>
+<td data-highlight-colour=3D"white" data-local-id=3D"b312e3e6-ff56-4c59-a8f=
+6-632f9f9bcc9d" class=3D"confluenceTd">
+<p local-id=3D"7e1ad660-9b1d-4a8e-a72b-2560e9b21d33">M=C3=A9dio</p></td>
+<td data-highlight-colour=3D"white" data-local-id=3D"96f2bea5-b4e6-4aa5-9c8=
+2-66eafe774e40" class=3D"confluenceTd">
+<p local-id=3D"9a2db382-2dcc-43e1-b5a0-c761fa8c286d">Incluir a t=C3=A9cnica=
+ de "Screen Size Testing" durante as sess=C3=B5es explorat=C3=B3rias.</p></=
+td>
+</tr>
+<tr data-local-id=3D"39b567ca-a0c4-4bad-880a-c6adcb4d0eb2">
+<td data-highlight-colour=3D"white" data-local-id=3D"bec53f62-ae09-4c39-bb3=
+e-11a79c25ab69" class=3D"confluenceTd">
+<p local-id=3D"cb506316-d7ca-4360-b6fc-9cdf9e2f8187">Vulnerabilidades de Se=
+guran=C3=A7a</p></td>
+<td data-highlight-colour=3D"white" data-local-id=3D"e99e5c8b-fd47-463d-99c=
+e-f89d46f423bf" class=3D"confluenceTd">
+<p local-id=3D"72b6b073-af47-4d4d-abe4-61c813be5798">Exposi=C3=A7=C3=A3o de=
+ dados sens=C3=ADveis ou falta de valida=C3=A7=C3=A3o em campos de input (S=
+QL Injection, XSS).</p></td>
+<td data-highlight-colour=3D"white" data-local-id=3D"f49fc3c4-cb40-4b50-8a9=
+f-ec37eff92d8b" class=3D"confluenceTd">
+<p local-id=3D"edcbf531-a1c4-41e2-b3a7-200b2c2d5eb0">Cr=C3=ADtico</p></td>
+<td data-highlight-colour=3D"white" data-local-id=3D"1fd201f2-0eb3-4ac7-8ee=
+d-12470663a3d0" class=3D"confluenceTd">
+<p local-id=3D"3fb7c877-3e1f-4434-8ec8-6e362e137282">Aplicar t=C3=A9cnicas =
+de "Attacker=E2=80=99s Mindset" focadas em inputs maliciosos.</p></td>
+</tr>
+<tr data-local-id=3D"8fdfade0-bf4a-40a8-9e74-658694f06426">
+<td data-highlight-colour=3D"white" data-local-id=3D"46052954-fe5f-471e-b40=
+1-19a3f05e8a46" class=3D"confluenceTd">
+<p local-id=3D"fe46a279-deec-469e-a15e-e0c6db7d2492">Performance Degradada<=
+/p></td>
+<td data-highlight-colour=3D"white" data-local-id=3D"f31c29d3-1e9b-45fc-a55=
+5-ade5d0f63d18" class=3D"confluenceTd">
+<p local-id=3D"8274e9ad-f3a4-4f97-8214-afb5061385f7">Lentid=C3=A3o no carre=
+gamento de p=C3=A1ginas cr=C3=ADticas sob condi=C3=A7=C3=B5es normais de us=
+o.</p></td>
+<td data-highlight-colour=3D"white" data-local-id=3D"6cb69fd8-dd75-42af-b78=
+2-e4d09d222961" class=3D"confluenceTd">
+<p local-id=3D"22d1062d-68f0-4d89-8781-5f5888c44d59">M=C3=A9dio</p></td>
+<td data-highlight-colour=3D"white" data-local-id=3D"18cb6cdb-f194-4ed2-8ef=
+d-05b788045ecc" class=3D"confluenceTd">
+<p local-id=3D"342aa7ba-a6aa-4450-b638-55a8b38bb1b6">Monitorar o console do=
+ desenvolvedor (Network tab) durante a navega=C3=A7=C3=A3o.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<ol start=3D"4" local-id=3D"4995e71b-83f7-454a-861c-2f5fed31a69b">
+<li local-id=3D"dbb62878-bcb8-4baa-86ff-a75bbb1f3c7e">
+<p local-id=3D"9098b4c9-7759-4961-986a-9d39789cf36e"><strong>Estrat=C3=A9gi=
+a de testes explorat=C3=B3rios:</strong></p></li>
+</ol>
+<p local-id=3D"23e97d57-3a8b-40d2-917d-441845ca05fa"><strong>Estrat=C3=A9gi=
+a escolhida: </strong>Testes Explorat=C3=B3rios Baseados em Tour</p>
+<p local-id=3D"c7683f04-35d5-4330-bd88-be42e3687fba"><strong>Descri=C3=A7=
+=C3=A3o da estrat=C3=A9gia:</strong></p>
+<p local-id=3D"aac570f2-ea88-465a-8f7e-8ae51692b9e4">Adotei a abordagem de =
+testes explorat=C3=B3rios baseados em tour, na qual a aplica=C3=A7=C3=A3o =
+=C3=A9 explorada atrav=C3=A9s de percursos tem=C3=A1ticos (tours) que direc=
+ionam a aten=C3=A7=C3=A3o do testador para aspectos espec=C3=ADficos do sis=
+tema, como: funcionalidades principais, fluxos do usu=C3=A1rio e comportame=
+nto da interface. Essa abordagem permite estruturar a explora=C3=A7=C3=A3o =
+sem a necessidade de casos de teste previamente definidos, mantendo o foco =
+em aprendizado cont=C3=ADnuo e descoberta de falhas.</p>
+<p local-id=3D"f75983c2-81c1-4b0f-9c05-50c6d1ebe76f"><strong>Justificativa =
+do uso:</strong></p>
+<p local-id=3D"afd6d702-d304-4035-ad57-a2805e5c7364">A escolha dessa estrat=
+=C3=A9gia se justifica pela necessidade de equilibrar flexibilidade e organ=
+iza=C3=A7=C3=A3o no processo de testes explorat=C3=B3rios. Os testes basead=
+os em <em>tour</em>, &nbsp;garantindo diversidade de perspectivas e maior c=
+obertura da aplica=C3=A7=C3=A3o. Al=C3=A9m disso, essa abordagem favorece o=
+ registro estruturado dos achados e a consolida=C3=A7=C3=A3o dos resultados=
+, sendo especialmente adequada para aplica=C3=A7=C3=B5es Web e para context=
+os acad=C3=AAmicos e colaborativos.</p>
+<ol start=3D"5" local-id=3D"e1b3555c-779a-4b7b-9a05-8bb943dc37f6">
+<li local-id=3D"53390046-dca7-4b66-a2c9-072a939c8cf7">
+<p local-id=3D"ea143b06-bf44-4fce-92b6-44d7b88f3424"><strong>T=C3=A9cnica e=
+xplorat=C3=B3ria a ser aplicada por cada membro:</strong></p></li>
+</ol>
+<p local-id=3D"4e51275d-122a-4503-b15a-8724bdfd6c91">Ser=C3=A3o aplicadas a=
+s t=C3=A9cnicas <strong>Guided Tour</strong> e <strong>Data Tour</strong> c=
+omo parte da estrat=C3=A9gia de testes explorat=C3=B3rios. No Guided Tour, =
+a aplica=C3=A7=C3=A3o =C3=A9 explorada de forma orientada, seguindo os flux=
+os principais do sistema sob a perspectiva de um usu=C3=A1rio iniciante, co=
+m foco na navega=C3=A7=C3=A3o, funcionalidades e clareza das orienta=C3=A7=
+=C3=B5es disponibilizadas. Essa abordagem permite avaliar a usabilidade, id=
+entificar defeitos funcionais e detectar inconsist=C3=AAncias que possam co=
+mprometer a experi=C3=AAncia de uso.</p>
+<p local-id=3D"6d93484e-7f7f-48e2-9609-52203c32c379">Complementarmente, o D=
+ata Tour concentra-se na an=C3=A1lise dos dados inseridos, processados e ex=
+ibidos pela aplica=C3=A7=C3=A3o, avaliando o comportamento do sistema diant=
+e de informa=C3=A7=C3=B5es v=C3=A1lidas, inv=C3=A1lidas ou inconsistentes. =
+A explora=C3=A7=C3=A3o envolve principalmente campos de busca e dados apres=
+entados nas telas, com o objetivo de identificar falhas de valida=C3=A7=C3=
+=A3o, inconsist=C3=AAncias na apresenta=C3=A7=C3=A3o das informa=C3=A7=C3=
+=B5es e impactos na confiabilidade do sistema e na experi=C3=AAncia do usu=
+=C3=A1rio.</p>
+<p local-id=3D"7fcd3e3e-f26f-43e1-9077-0417064f9ea8">6.<strong>CEN=C3=81RIO=
+S DE TESTE</strong></p>
+<p local-id=3D"9cc5951b-b1ed-464a-94b2-69ec00943664">Os cen=C3=A1rios de te=
+ste foram planejados com base nas principais jornadas de usu=C3=A1rio do Sp=
+otify e nas funcionalidades identificadas no escopo deste plano. As jornada=
+s consideradas representam o uso real da plataforma por usu=C3=A1rios finai=
+s, abrangendo busca, navega=C3=A7=C3=A3o por categorias, acesso a artistas,=
+ playlists e consumo de conte=C3=BAdo musical.</p>
+<p local-id=3D"fb237ae8-2142-44df-9346-74ffc7d6c7ae">Para fins de organiza=
+=C3=A7=C3=A3o e consulta r=C3=A1pida, os cen=C3=A1rios est=C3=A3o apresenta=
+dos em formato de tabela resumida abaixo.</p>
+<p local-id=3D"7c27b05c-2175-4842-84e5-0e13336141df">Os cen=C3=A1rios class=
+ificados com prioridade Cr=C3=ADtica e Alta foram priorizados durante as se=
+ss=C3=B5es de testes explorat=C3=B3rios. Os cen=C3=A1rios que resultaram na=
+ identifica=C3=A7=C3=A3o de achados relevantes possuem documenta=C3=A7=C3=
+=A3o detalhada, incluindo passos de reprodu=C3=A7=C3=A3o, evid=C3=AAncias e=
+ an=C3=A1lise de impacto, descritos na se=C3=A7=C3=A3o =E2=80=9CAplica=C3=
+=A7=C3=A3o das T=C3=A9cnicas=E2=80=9D.</p>
+<p local-id=3D"e335b0ed-0377-40da-be18-eaf93d5ed27d">Os cen=C3=A1rios marca=
+dos como Planejado representam testes que poder=C3=A3o ser executados em ci=
+clos futuros de explora=C3=A7=C3=A3o ou em um eventual ciclo de testes de r=
+egress=C3=A3o.</p>
+<p local-id=3D"62fdb0f8-7001-4506-8142-77c2b2f7cd25"><u>Tabela de Cen=C3=A1=
+rios de Teste</u></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"34=
+fc7d27-341c-4d84-bedb-c3b441f2ec59" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"c572f05b-9a85-4455-ba98-cc641b83d82f">
+<td data-local-id=3D"a2e22096-bd38-4738-a079-a92c26422996" class=3D"conflue=
+nceTd">
+<p local-id=3D"e95891e9-fabd-44b9-92f8-46428155c7ac"><strong>ID</strong></p=
+></td>
+<td data-local-id=3D"1963b0e1-6778-46b7-8882-4874b53eaefa" class=3D"conflue=
+nceTd">
+<p local-id=3D"3d77186f-c425-4e0e-a3d0-cb32bf21a253"><strong>Cen=C3=A1rio d=
+e Teste</strong></p></td>
+<td data-local-id=3D"9aaf4dd9-ec99-4eb7-bee1-fa51ca6b2a20" class=3D"conflue=
+nceTd">
+<p local-id=3D"8eea2482-c18e-4c64-b4c1-a5f3dbbe6a14"><strong>Fluxo</strong>=
+</p></td>
+<td data-local-id=3D"abf0e293-c811-4e62-b023-b78cce8aa3ec" class=3D"conflue=
+nceTd">
+<p local-id=3D"87e10ad2-a18a-4515-9982-75493544023e"><strong>Prioridade</st=
+rong></p></td>
+<td data-local-id=3D"223abd3b-519c-477f-a604-9dde683d314f" class=3D"conflue=
+nceTd">
+<p local-id=3D"9b38b0fe-583f-47ce-a8b6-a29c86eef5d5"><strong>Status</strong=
+></p></td>
+</tr>
+<tr data-local-id=3D"5a2c3511-de3c-4b22-975a-d60ee53926b7">
+<td data-local-id=3D"38fed203-a599-4839-ab4d-2ed72b4939bd" class=3D"conflue=
+nceTd">
+<p local-id=3D"86dfe289-16ca-4d55-8e84-6b85efc28986"><strong>CT-001</strong=
+></p></td>
+<td data-local-id=3D"b3735113-c643-46df-a9a5-025c79bfa201" class=3D"conflue=
+nceTd">
+<p local-id=3D"a1416465-f59b-4177-99b4-a385af148b29">Buscar m=C3=BAsica por=
+ nome v=C3=A1lido</p></td>
+<td data-local-id=3D"ee228f49-4566-42a7-a763-d224a80360fe" class=3D"conflue=
+nceTd">
+<p local-id=3D"3561fb9a-91ac-4f62-b17b-6c887992dbce">P=C3=A1gina Inicial &g=
+t; Busca</p></td>
+<td data-local-id=3D"fd78577f-b8c7-443c-b96c-a1c6ea148655" class=3D"conflue=
+nceTd">
+<p local-id=3D"b6709994-1dc6-4b71-b417-83fa628a0c46">Alta</p></td>
+<td data-local-id=3D"a6562f38-3f06-4b95-89b4-e20ac1bddce7" class=3D"conflue=
+nceTd">
+<p local-id=3D"385a4bc5-179e-4fcd-8720-b03b01eeed8a">=E2=9C=85 Executado</p=
+></td>
+</tr>
+<tr data-local-id=3D"d88871cb-a30f-4d70-9558-1faed8d8b8f3">
+<td data-local-id=3D"1b2dd1e4-c330-4d66-a697-5c3e935a5175" class=3D"conflue=
+nceTd">
+<p local-id=3D"ddb92d7e-d83a-41d0-afa1-5bcdf3ca9eb0"><strong>CT-002</strong=
+></p></td>
+<td data-local-id=3D"53b55d35-dcae-4450-a616-e7b15e57b444" class=3D"conflue=
+nceTd">
+<p local-id=3D"e4d930e8-42dc-4360-b85f-d6f330822f2f">Buscar artista existen=
+te</p></td>
+<td data-local-id=3D"3185ecaa-b594-420e-a3e5-2fb75d5d6dad" class=3D"conflue=
+nceTd">
+<p local-id=3D"b7c04ee6-1357-424d-9f83-957c0588a961">P=C3=A1gina Inicial &g=
+t; Busca</p></td>
+<td data-local-id=3D"c4f4a2b9-763d-46b6-b285-bc5c6a34e6dd" class=3D"conflue=
+nceTd">
+<p local-id=3D"67bb10a1-0f9d-41e4-9b79-8f19e30ca51d">Alta</p></td>
+<td data-local-id=3D"9f3d54f3-e269-4752-bf7f-41f17da928c3" class=3D"conflue=
+nceTd">
+<p local-id=3D"595a89fe-8ee1-4e29-806a-cbd549d0a6b0">=E2=9C=85 Executado</p=
+></td>
+</tr>
+<tr data-local-id=3D"7489aa71-ca6d-4c34-9df6-a9e77c1814fb">
+<td data-local-id=3D"17cce577-0bcf-49a7-be84-807b4b1c247c" class=3D"conflue=
+nceTd">
+<p local-id=3D"b5d0ad3d-4e63-475c-a485-1be4b3fcdc82"><strong>CT-003</strong=
+></p></td>
+<td data-local-id=3D"b2773509-fa8e-4866-ba5e-2056f04f04a5" class=3D"conflue=
+nceTd">
+<p local-id=3D"a1e344f4-5f80-4225-8d5a-266ff2e97829">Buscar com termo inexi=
+stente</p></td>
+<td data-local-id=3D"949e0fb9-1b02-42ad-9aca-054beb2b92e0" class=3D"conflue=
+nceTd">
+<p local-id=3D"590753b7-b146-424c-8571-ee98b4ae9865">P=C3=A1gina Inicial &g=
+t; Busca</p></td>
+<td data-local-id=3D"f5941159-920a-45f3-80d1-a6b9876f347c" class=3D"conflue=
+nceTd">
+<p local-id=3D"539f939f-5b9a-4d6f-aaae-dceabc56e335">M=C3=A9dia</p></td>
+<td data-local-id=3D"384b7161-d7cd-4367-a176-a4b394a54cee" class=3D"conflue=
+nceTd">
+<p local-id=3D"dbf0274e-3e40-4c82-8bfa-fde48b25f02e"><strong>=E2=9C=85 </st=
+rong>Executado</p></td>
+</tr>
+<tr data-local-id=3D"50003fcb-4f51-4109-8173-c20744b97bb3">
+<td data-local-id=3D"cbd2d70d-229a-44e9-8c18-5b1bf10eac45" class=3D"conflue=
+nceTd">
+<p local-id=3D"a0e96af1-8cc5-4b7b-9581-4c1c0cfc7ecc"><strong>CT-004</strong=
+></p></td>
+<td data-local-id=3D"f06c88f1-49c8-442b-bfdd-14c5189a23aa" class=3D"conflue=
+nceTd">
+<p local-id=3D"d8e65945-59a9-4b6c-9fef-c355989e650a">Buscar com caracteres =
+aleat=C3=B3rios</p></td>
+<td data-local-id=3D"2655eba7-20fa-41e0-a337-4eec7c42ab07" class=3D"conflue=
+nceTd">
+<p local-id=3D"229b459d-ef4e-49f4-b2d3-a0412ec82cb7">P=C3=A1gina Inicial &g=
+t; Busca</p></td>
+<td data-local-id=3D"07d35eed-d735-40f4-a838-8eda2f246f42" class=3D"conflue=
+nceTd">
+<p local-id=3D"847c6ca4-cf0f-47bc-8eb1-9dfe620d5d53">M=C3=A9dia</p></td>
+<td data-local-id=3D"f10fec36-13f2-40ca-a4aa-20ef488d5295" class=3D"conflue=
+nceTd">
+<p local-id=3D"ffa3377b-b166-44d5-a30c-97de2f5fd7c0"><strong>=E2=9C=85</str=
+ong> Executado (Achado 01)</p></td>
+</tr>
+<tr data-local-id=3D"4b07c9eb-c6e2-41ef-a653-72d3a9cadecd">
+<td data-local-id=3D"ea5357e8-5363-4641-a603-8e97c3d00b4c" class=3D"conflue=
+nceTd">
+<p local-id=3D"7c620afd-04b5-40a2-ae49-0a3773987547"><strong>CT-005</strong=
+></p></td>
+<td data-local-id=3D"07b67aae-4c8f-4aab-8341-77c2545f0a59" class=3D"conflue=
+nceTd">
+<p local-id=3D"f9076fcf-a5f9-4354-8a02-c04b4c99e5a3">Navegar por categorias=
+ de m=C3=BAsica</p></td>
+<td data-local-id=3D"e21364e9-ffdb-4134-8a89-edfe37e3cc0a" class=3D"conflue=
+nceTd">
+<p local-id=3D"15d97599-05d5-4d14-833a-eabce7205d39">P=C3=A1gina Inicial &g=
+t; Categorias</p></td>
+<td data-local-id=3D"9ba8dfca-fcef-40be-a104-56e93ec8d918" class=3D"conflue=
+nceTd">
+<p local-id=3D"3597d457-3829-4d62-b051-903e976eb1d0">Alta</p></td>
+<td data-local-id=3D"d492c728-eb7a-4d31-a561-310c6099cf51" class=3D"conflue=
+nceTd">
+<p local-id=3D"2ad37c06-4698-4dd7-8f5a-4061a8949d3e"><strong>=E2=9C=85</str=
+ong> Executado</p></td>
+</tr>
+<tr data-local-id=3D"78a2660c-a069-4fd6-a93f-cfc3fac70c1d">
+<td data-local-id=3D"8ed7be6b-02f8-4a60-8628-e72f3b951c47" class=3D"conflue=
+nceTd">
+<p local-id=3D"d5f18103-d07e-4125-9009-30a3c1eacabd"><strong>CT-006</strong=
+></p></td>
+<td data-local-id=3D"d64713ef-4fd3-4156-9a34-0d879dbfdd83" class=3D"conflue=
+nceTd">
+<p local-id=3D"933f4450-c089-4e4b-b341-35fc5f7adeb4">Acessar categoria espe=
+c=C3=ADfica</p></td>
+<td data-local-id=3D"bce97761-5bb6-4123-a34e-b0a20ae23b03" class=3D"conflue=
+nceTd">
+<p local-id=3D"1cb1ba10-af87-4327-81e3-79c2868037cc">Categorias &gt; Conte=
+=C3=BAdo</p></td>
+<td data-local-id=3D"a7063b44-6217-4f9c-b9cf-6b595394fb3c" class=3D"conflue=
+nceTd">
+<p local-id=3D"d11c298a-94f9-4b17-970f-b44a2037e857">Alta</p></td>
+<td data-local-id=3D"8401724e-6eb5-4848-8df0-9bc1cb80dc14" class=3D"conflue=
+nceTd">
+<p local-id=3D"e2d706c6-b42d-47a9-a0e0-0666e68a3229"><strong>=E2=9C=85</str=
+ong> Executado</p></td>
+</tr>
+<tr data-local-id=3D"e0aa25f2-a272-4b92-9906-6d54fa003aee">
+<td data-local-id=3D"03dc4b43-3998-43bb-85ca-e51915eb01ee" class=3D"conflue=
+nceTd">
+<p local-id=3D"08496163-8cca-49f1-afe2-1437ce7ece39"><strong>CT-007</strong=
+></p></td>
+<td data-local-id=3D"b48f006b-acbc-4276-a640-52ec420c2513" class=3D"conflue=
+nceTd">
+<p local-id=3D"4b2e9319-caa7-454a-afd5-183dd85f4366">Retornar da categoria =
+para p=C3=A1gina de categorias</p></td>
+<td data-local-id=3D"593534e4-499c-4d44-bc98-85f54fd1e0c6" class=3D"conflue=
+nceTd">
+<p local-id=3D"525b3cd8-80b2-40ba-9bc9-891a7ee8dbf4">Categorias &gt; Navega=
+=C3=A7=C3=A3o</p></td>
+<td data-local-id=3D"98fda45c-83e0-4a46-8cc7-a66631ab8da9" class=3D"conflue=
+nceTd">
+<p local-id=3D"81d52b44-dd80-4161-9914-36547b315fc5">M=C3=A9dia</p></td>
+<td data-local-id=3D"a5313602-1148-4099-a532-eed6b419ef42" class=3D"conflue=
+nceTd">
+<p local-id=3D"b5658fa3-d018-4702-bc2e-b6864e3ab46a">=E2=9C=85 Executado (A=
+chado 02)</p></td>
+</tr>
+<tr data-local-id=3D"56712633-3210-4bcd-a008-872cc1aedda1">
+<td data-local-id=3D"b95c849c-b367-4f7a-a0ce-d1e1d2b102ff" class=3D"conflue=
+nceTd">
+<p local-id=3D"fe45ed6d-3fad-44a6-bc1f-ad0f56ecc356"><strong>CT-008</strong=
+></p></td>
+<td data-local-id=3D"235bed9a-8e5d-46ef-983a-b1a1e560e32b" class=3D"conflue=
+nceTd">
+<p local-id=3D"e86d56be-8965-47b6-b353-4ac0c3c225ce">Acessar p=C3=A1gina de=
+ artista</p></td>
+<td data-local-id=3D"042cc4f0-89b2-45c8-86cc-0278011d342f" class=3D"conflue=
+nceTd">
+<p local-id=3D"8d71f1ff-7f74-4aab-b24b-c1e129eb3726">Busca &gt; Artista</p>=
+</td>
+<td data-local-id=3D"23af0b75-c359-4029-a2f5-2ff3d707cc75" class=3D"conflue=
+nceTd">
+<p local-id=3D"fe07ebb4-281e-42f0-b108-ef57bfb01a59">Alta</p></td>
+<td data-local-id=3D"4d1e3db9-b604-41d0-bf0b-d37c988e683e" class=3D"conflue=
+nceTd">
+<p local-id=3D"f5ebc0f5-faff-411f-89a4-a01ab8b5a31a">Planejado</p></td>
+</tr>
+<tr data-local-id=3D"d96ad2ce-556c-4dd8-9b1f-2bf9e262e2e2">
+<td data-local-id=3D"b215fc1f-ca79-4cba-bf14-f93c96b4df36" class=3D"conflue=
+nceTd">
+<p local-id=3D"0609ccde-419c-4553-9be6-0fe6081818f8"><strong>CT-009</strong=
+></p></td>
+<td data-local-id=3D"26087b52-194c-42b4-a042-a1b6351b277c" class=3D"conflue=
+nceTd">
+<p local-id=3D"9b680faf-4a30-4c1a-ab04-07ea8564a0b7">Acessar playlist p=C3=
+=BAblica</p></td>
+<td data-local-id=3D"9af9b486-8d02-45cd-9373-df19e04b4796" class=3D"conflue=
+nceTd">
+<p local-id=3D"9e0ee6fa-61b5-4d98-9bc2-6b9e73febf6d">Busca &gt; Playlist</p=
+></td>
+<td data-local-id=3D"ee700140-c4c3-4b8b-9c4e-6c4cc7f67d02" class=3D"conflue=
+nceTd">
+<p local-id=3D"9561506e-fd41-4df1-be1b-36b8495c7325">Alta</p></td>
+<td data-local-id=3D"25a3f610-68d4-4bb4-9238-ee4474b4eb2a" class=3D"conflue=
+nceTd">
+<p local-id=3D"4554779a-eb4d-4434-9241-22af31b1128d">Planejado</p></td>
+</tr>
+<tr data-local-id=3D"068cb7d6-82db-41d5-8194-f4a5ddac82f6">
+<td data-local-id=3D"43cdd070-94ae-41ee-9319-fdcef68178b9" class=3D"conflue=
+nceTd">
+<p local-id=3D"8633ca3c-5d56-4472-b379-310139d0a858"><strong>CT-010</strong=
+></p></td>
+<td data-local-id=3D"9b445d7e-d15f-4f31-aeb0-3b522138040e" class=3D"conflue=
+nceTd">
+<p local-id=3D"f64254bf-4a2f-4ef9-acf3-f48bc34e4de3">Reproduzir m=C3=BAsica=
+ individual</p></td>
+<td data-local-id=3D"5447aadf-3cda-469e-87f2-2208084679d5" class=3D"conflue=
+nceTd">
+<p local-id=3D"8f06241d-9f07-41a8-b568-264d34e77d00">Conte=C3=BAdo &gt; Pla=
+yer</p></td>
+<td data-local-id=3D"d6e790f8-5ee1-4d95-90b0-14b4c4f5a84e" class=3D"conflue=
+nceTd">
+<p local-id=3D"6c5d6eb0-2cea-4727-a367-1ce3a9549601">Cr=C3=ADtica</p></td>
+<td data-local-id=3D"3128e249-1b12-4694-8d64-b9b1be1174e6" class=3D"conflue=
+nceTd">
+<p local-id=3D"dc847b70-50ec-46c6-b534-3852b215be82">Planejado</p></td>
+</tr>
+<tr data-local-id=3D"a7148098-b9d8-47f8-ae10-df0778d00c32">
+<td data-local-id=3D"4d79cb4d-54b4-4e48-8e17-829f1f1b170d" class=3D"conflue=
+nceTd">
+<p local-id=3D"d42d4b24-4d0b-4684-b53c-1935705cb3b7"><strong>CT-011</strong=
+></p></td>
+<td data-local-id=3D"2aef1f08-a56c-4143-b192-abb977f6b60e" class=3D"conflue=
+nceTd">
+<p local-id=3D"51b959a9-3083-412f-8feb-cd5faf19d3d9">Reproduzir playlist co=
+mpleta</p></td>
+<td data-local-id=3D"b3ee89da-a871-4aa3-a553-06ad6db5f653" class=3D"conflue=
+nceTd">
+<p local-id=3D"b8d346fc-9cf4-4756-95aa-363d30929cb3">Playlist &gt; Player</=
+p></td>
+<td data-local-id=3D"3c28e608-875d-4a68-a484-3c13309e4e0b" class=3D"conflue=
+nceTd">
+<p local-id=3D"7db54192-0ce9-43d4-b4a0-a407b4df58b6">Alta</p></td>
+<td data-local-id=3D"55c352d8-42cb-4b48-b532-22f521cca984" class=3D"conflue=
+nceTd">
+<p local-id=3D"adab039f-2ae4-46a7-a2cd-919c64af7f89">Planejado</p></td>
+</tr>
+<tr data-local-id=3D"6dcf5739-313d-40c4-82ba-286ed6dcdec2">
+<td data-local-id=3D"cbb5e846-c071-4a7d-93c9-6c7867545939" class=3D"conflue=
+nceTd">
+<p local-id=3D"ff28d98d-8143-4af8-84e8-de55eea4563e"><strong>CT-012</strong=
+></p></td>
+<td data-local-id=3D"b61324b2-1880-42c1-be75-f238ba95f5af" class=3D"conflue=
+nceTd">
+<p local-id=3D"b6a90c24-4165-4239-a650-1a572807ac36">Pausar e retomar repro=
+du=C3=A7=C3=A3o</p></td>
+<td data-local-id=3D"9c5c2019-847e-4719-8ff2-801f2386a935" class=3D"conflue=
+nceTd">
+<p local-id=3D"8b2cf9cd-1d9b-4f04-9500-1d7d82ab5057">Player</p></td>
+<td data-local-id=3D"0252c7d1-4186-441e-9bfc-c0b030e518fb" class=3D"conflue=
+nceTd">
+<p local-id=3D"a9186185-8b9c-4b9b-8c62-4ab935e85d2c">Alta</p></td>
+<td data-local-id=3D"9a264d34-1275-4794-bdc8-ad7c04837729" class=3D"conflue=
+nceTd">
+<p local-id=3D"e3eda3f9-75c4-4f05-ac77-a843040ae753">Planejado</p></td>
+</tr>
+<tr data-local-id=3D"ae7ed8b4-4445-45d9-bee8-2bc7a2f59994">
+<td data-local-id=3D"63984f11-353c-4e89-b104-a8062bbaf9ce" class=3D"conflue=
+nceTd">
+<p local-id=3D"a8018da5-3bff-437d-bf7d-0584578117b3"><strong>CT-013</strong=
+></p></td>
+<td data-local-id=3D"61122dc6-a45b-4da9-a836-c4bdcfb6734a" class=3D"conflue=
+nceTd">
+<p local-id=3D"d0275606-25bf-4f02-be41-0a030e48591c">Navegar entre m=C3=BAs=
+icas da playlist</p></td>
+<td data-local-id=3D"62ba356a-29dd-4785-9288-d2bf3ce8a6d4" class=3D"conflue=
+nceTd">
+<p local-id=3D"4059fede-0e30-4a03-85aa-817b1cf29aaa">Player</p></td>
+<td data-local-id=3D"53858a32-debb-4772-9f34-c08ecb951d2e" class=3D"conflue=
+nceTd">
+<p local-id=3D"0d5ea2ad-88aa-49a6-8ee5-8b3b5261ff4c">M=C3=A9dia</p></td>
+<td data-local-id=3D"574451b8-51e5-4b88-b24b-412de61e4f6b" class=3D"conflue=
+nceTd">
+<p local-id=3D"9903ca2e-f76f-44e1-ad34-6531035f29b8">Planejado</p></td>
+</tr>
+<tr data-local-id=3D"9f0b9d93-2e18-4db6-8ac1-d04b7d2ff014">
+<td data-local-id=3D"7ce36e5d-3773-40cd-9f3b-7d998fd0a25b" class=3D"conflue=
+nceTd">
+<p local-id=3D"261caa82-a14d-4d31-99c3-1dc910e6216f"><strong>CT-014</strong=
+></p></td>
+<td data-local-id=3D"02f83591-04a7-4c31-8079-5c54a24abeda" class=3D"conflue=
+nceTd">
+<p local-id=3D"14edc8b0-e0b5-44d0-89e3-72ad52aef126">Buscar podcast por nom=
+e</p></td>
+<td data-local-id=3D"2033be52-da4b-48f6-87d5-3b408903a56a" class=3D"conflue=
+nceTd">
+<p local-id=3D"e2d7c614-58dd-4d02-b8f4-b44f83f8b57e">Busca &gt; Podcasts</p=
+></td>
+<td data-local-id=3D"e8124e0d-cc48-4e3b-97ea-b5c2eb12eed4" class=3D"conflue=
+nceTd">
+<p local-id=3D"4b48c03a-d2fc-4d3c-a457-946e4a62741f">M=C3=A9dia</p></td>
+<td data-local-id=3D"d8977fef-f886-4297-a109-1f186265acd8" class=3D"conflue=
+nceTd">
+<p local-id=3D"0da61084-31aa-42e0-bdc1-1409d32f47fd">Planejado</p></td>
+</tr>
+<tr data-local-id=3D"c03667e0-93ba-4149-8bf0-1c3a9dd9e8cb">
+<td data-local-id=3D"a40c4b38-00fb-4db2-b07e-d9e93eb63a8f" class=3D"conflue=
+nceTd">
+<p local-id=3D"29035069-a81c-4615-8c81-ca2f3b07772f"><strong>CT-015</strong=
+></p></td>
+<td data-local-id=3D"70ce9176-d649-42fa-a964-6e9f7e558b8b" class=3D"conflue=
+nceTd">
+<p local-id=3D"6047968d-0fb8-4a87-b9e6-4122d00861e4">Acessar hist=C3=B3rico=
+/recentes</p></td>
+<td data-local-id=3D"cd30cbaf-9e9f-4c00-ae3b-a38eb60eb111" class=3D"conflue=
+nceTd">
+<p local-id=3D"c5436b28-e5d0-4fa6-8e2c-bd592bba76fc">P=C3=A1gina Inicial &g=
+t; Recentes</p></td>
+<td data-local-id=3D"ad9fcbe5-60e2-4fb1-abd1-6f1f425085ff" class=3D"conflue=
+nceTd">
+<p local-id=3D"a0159f57-32ef-4a67-9621-18b056d7ad63">M=C3=A9dia</p></td>
+<td data-local-id=3D"27117f49-ba37-432a-915a-c300c5cf3841" class=3D"conflue=
+nceTd">
+<p local-id=3D"9e9ad33e-8432-43c1-806c-f66e2f1db433">Planejado</p></td>
+</tr>
+<tr data-local-id=3D"dcc286f7-3fb0-45ff-9023-b01472d84e4b">
+<td data-local-id=3D"532b27b0-d202-426a-a9fc-d3008d57784f" class=3D"conflue=
+nceTd">
+<p local-id=3D"28f47c16-b722-4ab1-8609-f50a1a306cf5"><strong>CT-017</strong=
+></p></td>
+<td data-local-id=3D"2591e6a2-7567-43c1-91ad-579ddb72fcb9" class=3D"conflue=
+nceTd">
+<p local-id=3D"4859ebc6-27cc-4a28-aa4e-5aab9847a55b">Navega=C3=A7=C3=A3o em=
+ modo desktop</p></td>
+<td data-local-id=3D"161e54af-f32d-4f0d-974f-4e43d10c20f9" class=3D"conflue=
+nceTd">
+<p local-id=3D"f5746e45-69de-4bd6-b870-3b32d3824c56">Geral</p></td>
+<td data-local-id=3D"f4c36a28-d308-49a7-8ad2-2fda1db4ede3" class=3D"conflue=
+nceTd">
+<p local-id=3D"28fb0ad3-7924-42ec-9186-66b351ccd7f4">Alta</p></td>
+<td data-local-id=3D"bea5ad3c-9a56-48e6-abd0-af476006de02" class=3D"conflue=
+nceTd">
+<p local-id=3D"ff759ac1-637e-47af-9233-a9a9bd956dbc">Planejado</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"e0fd40c3-0580-4912-9263-ef01b6d5881e">7.<strong>CRIT=C3=89RI=
+OS DE ACEITE E SA=C3=8DDA</strong></p>
+<p local-id=3D"517a65d3-3e13-4ed1-ac43-1c6ad0344de9"><u>Crit=C3=A9rios de A=
+ceite:</u></p>
+<ul local-id=3D"cd703c92-44c8-4413-8e0f-f53dac173204">
+<li local-id=3D"9d03eb51-af5d-4466-822b-44db559f82a2">
+<p local-id=3D"8496107d-4927-46f6-8a35-d46e9177e59c">=E2=9C=85 Funcionalida=
+des cr=C3=ADticas de busca, navega=C3=A7=C3=A3o e reprodu=C3=A7=C3=A3o oper=
+acionais</p></li>
+<li local-id=3D"70ef61ac-3277-4611-b730-c02fcc6fe0d6">
+<p local-id=3D"308ef1b9-d551-4864-a798-e0d2f5259c7e">=E2=9C=85 Aus=C3=AAnci=
+a de falhas bloqueadoras no player</p></li>
+<li local-id=3D"09c64769-e576-4098-9cb4-d80b94cd5c64">
+<p local-id=3D"8ebb55f8-c8c2-43ab-8b56-2f5af9c2dca3">=E2=9C=85 Feedback ade=
+quado ao usu=C3=A1rio em buscas inv=C3=A1lidas</p></li>
+<li local-id=3D"b752bbdb-4ea7-4762-9073-4df59b210443">
+<p local-id=3D"c1b39c1f-34c0-47b5-8137-581f4f93dcaf">=E2=9C=85 Navega=C3=A7=
+=C3=A3o fluida entre categorias e conte=C3=BAdos</p></li>
+<li local-id=3D"97b712ce-7253-47bc-8439-8147e7f12912">
+<p local-id=3D"482b861d-7df0-4c75-a830-59661f9d4c54">=E2=9C=85 Compatibilid=
+ade com navegadores Chrome, Firefox e Edge</p></li>
+<li local-id=3D"da7875e0-5827-4ab5-9d19-2fceaf5545ad">
+<p local-id=3D"746955e4-a2df-4b44-ae16-fed6ac508f94">=E2=9C=85 Interface re=
+sponsiva em resolu=C3=A7=C3=B5es desktop</p></li>
+</ul>
+<p local-id=3D"5e6e5569-bc4e-46d3-9b73-2e4f7efa5be0"><u>Crit=C3=A9rios de S=
+a=C3=ADda:</u></p>
+<ul local-id=3D"06f9e6df-37bc-414d-9456-7f03d0ab8b35">
+<li local-id=3D"89bbd93c-7eb8-48cc-93a2-58561e7c1d70">
+<p local-id=3D"62297a43-6ee2-4369-b446-b67379f1aa82"><strong>=E2=9C=85</str=
+ong> Todos os cen=C3=A1rios de prioridade Cr=C3=ADtica e Alta executados</p=
+></li>
+<li local-id=3D"2c0548e3-72ee-4c29-b7de-4831b9811b49">
+<p local-id=3D"a70e35a5-41eb-4889-918a-49b47badcbd5">=E2=9C=85 Achados docu=
+mentados com evid=C3=AAncias e an=C3=A1lise de impacto</p></li>
+<li local-id=3D"cd539c72-a057-40da-8bc9-b7d3d92f7087">
+<p local-id=3D"355ac309-3ae3-47dd-8dc7-6fe81c71b3ac">=E2=9C=85 Consolida=C3=
+=A7=C3=A3o das li=C3=A7=C3=B5es aprendidas</p></li>
+<li local-id=3D"93f09963-f722-4bbb-92bb-b6ceb19434c3">
+<p local-id=3D"ee063005-0069-4246-8d6d-7cac6f2e461f">=E2=9C=85 Plano de tes=
+tes revisado</p></li>
+<li local-id=3D"ee5b66b9-0fa2-4ee4-a382-57b6bd6a0548">
+<p local-id=3D"85b1b3be-cd84-42aa-b0d6-a42deac82a5f">=E2=9C=85 Apresenta=C3=
+=A7=C3=A3o oral de at=C3=A9 4 minutos preparada</p></li>
+</ul>
+<p local-id=3D"1258cc95-45ec-46ff-bfa4-a27365547a5b">8.<strong>CRONOGRAMA E=
+STIMADO</strong></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"de=
+dae039-942a-4837-b203-3de3ee84d7ee" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"61d0764d-5806-4dc6-8b3a-2c4b78d7eeef">
+<td data-local-id=3D"f81f3819-7c6c-494b-bb10-f256af9a726a" class=3D"conflue=
+nceTd">
+<p local-id=3D"8549de36-a5d7-4971-b330-809136ddf07c"><strong>Atividade</str=
+ong></p></td>
+<td data-local-id=3D"ae31f177-cee1-4f97-b2b0-06b89480f85c" class=3D"conflue=
+nceTd">
+<p local-id=3D"274c3934-c5bc-4cf7-8691-dfef56c55aae"><strong>Dura=C3=A7=C3=
+=A3o</strong></p></td>
+<td data-local-id=3D"f72d0a4b-5ef3-4967-979f-539535be94c7" class=3D"conflue=
+nceTd">
+<p local-id=3D"f90a4c12-637b-43cc-b511-a88b94446d35"><strong>Respons=C3=A1v=
+el</strong></p></td>
+</tr>
+<tr data-local-id=3D"d79dc817-7f17-4789-8637-4a2f17be4986">
+<td data-local-id=3D"a3e5e078-09ae-48c2-bffa-6499ce8f7c77" class=3D"conflue=
+nceTd">
+<p local-id=3D"990eca89-374b-421f-bab0-31f56bac2fd8">Planejamento e elabora=
+=C3=A7=C3=A3o do plano</p></td>
+<td data-local-id=3D"8024653c-6b1b-4ef3-a777-a68befa0389d" class=3D"conflue=
+nceTd">
+<p local-id=3D"d8915c68-bfff-4f83-9f62-aef06f85112d">1 dia</p></td>
+<td data-local-id=3D"01954f5f-faba-4019-a6e1-f08ac780c85b" class=3D"conflue=
+nceTd">
+<p local-id=3D"2ea0e169-ae2d-4407-b91c-3b633a576b96">Jo=C3=A3o Pedro de Jes=
+us Perin</p></td>
+</tr>
+<tr data-local-id=3D"f6e0e1eb-6607-4980-a77f-fcfb4881572b">
+<td data-local-id=3D"e8c918b8-8078-4d63-a8ba-cf21b3d4b091" class=3D"conflue=
+nceTd">
+<p local-id=3D"37ca0406-6c55-404a-8b24-e8546dd63d5a">Execu=C3=A7=C3=A3o dos=
+ testes explorat=C3=B3rios (Guided Tour)</p></td>
+<td data-local-id=3D"d097ece8-6c8b-40cd-9412-db5d73214f63" class=3D"conflue=
+nceTd">
+<p local-id=3D"175980da-58f3-4aff-adfd-169d9f3931a8">0,5 dia</p></td>
+<td data-local-id=3D"445b42b1-01a4-4051-a07f-639528e867d8" class=3D"conflue=
+nceTd">
+<p local-id=3D"a1b0db82-d90c-4bee-8961-223ba48532c1">Jo=C3=A3o Pedro de Jes=
+us Perin</p></td>
+</tr>
+<tr data-local-id=3D"e3802426-4bfe-4510-92ca-3253f5d003f2">
+<td data-local-id=3D"5fd5ce20-0084-4c76-bc27-a57194442938" class=3D"conflue=
+nceTd">
+<p local-id=3D"24e31c1b-82f4-4ca7-b5f4-41c76800bd41">Execu=C3=A7=C3=A3o dos=
+ testes explorat=C3=B3rios (Data Tour)</p></td>
+<td data-local-id=3D"15c1e64e-f0c8-449a-ae9a-5f646a159c40" class=3D"conflue=
+nceTd">
+<p local-id=3D"6d4715a9-d9ae-4164-85b9-08e46d907fba">0,5 dia</p></td>
+<td data-local-id=3D"8c278fcf-ae48-40d2-bc93-ac61c013fb34" class=3D"conflue=
+nceTd">
+<p local-id=3D"2163fe27-206f-4aa1-be8d-15fffebdfbd1">Jo=C3=A3o Pedro de Jes=
+us Perin</p></td>
+</tr>
+<tr data-local-id=3D"8f9b32ce-0eff-4149-b651-4dd1a65f2bb6">
+<td data-local-id=3D"f34fcf9c-3333-46aa-aa13-f49515505a61" class=3D"conflue=
+nceTd">
+<p local-id=3D"27c27174-6f9b-43b0-86f5-62520dbf4fa4">Consolida=C3=A7=C3=A3o=
+ dos achados</p></td>
+<td data-local-id=3D"a0a2349d-6746-4158-95bd-f24c54765b07" class=3D"conflue=
+nceTd">
+<p local-id=3D"47b154d8-33ce-480a-b4df-f9507181b15b">0,5 dia</p></td>
+<td data-local-id=3D"b253806b-39f7-4150-84a6-a082e7a18af9" class=3D"conflue=
+nceTd">
+<p local-id=3D"e44e3c74-7014-49c9-a94e-73a7387dfd7d">Jo=C3=A3o Pedro de Jes=
+us Perin</p></td>
+</tr>
+<tr data-local-id=3D"455f506f-8106-4107-908a-8443832f15fd">
+<td data-local-id=3D"31a8be5f-fca2-4562-9841-356aa81736db" class=3D"conflue=
+nceTd">
+<p local-id=3D"8c0d10d6-a88f-45ad-81d9-08c8b9284483">Documenta=C3=A7=C3=A3o=
+ e revis=C3=A3o final</p></td>
+<td data-local-id=3D"e6c873ff-b0a3-49d5-b049-4c921d456595" class=3D"conflue=
+nceTd">
+<p local-id=3D"c535df82-b860-45c2-ba58-882bcde69f5d">1 dia</p></td>
+<td data-local-id=3D"4fc06b1a-a1b2-4106-bf4e-4303a4f182bd" class=3D"conflue=
+nceTd">
+<p local-id=3D"ba9eb1fb-a96a-46e1-9073-74b801d2a888">Jo=C3=A3o Pedro de Jes=
+us Perin</p></td>
+</tr>
+<tr data-local-id=3D"ed66e70d-7c65-49fc-982b-e1e1375ca4d1">
+<td data-local-id=3D"a848241a-19e4-482c-bf94-08a9019812b2" class=3D"conflue=
+nceTd">
+<p local-id=3D"225e4618-7f3d-4626-9c3d-d46dd6953a01">Prepara=C3=A7=C3=A3o d=
+a apresenta=C3=A7=C3=A3o</p></td>
+<td data-local-id=3D"268cd90a-efc7-4555-967e-148f45090bb1" class=3D"conflue=
+nceTd">
+<p local-id=3D"c9b84ef3-6313-4760-a336-877f33a1da5d">0,5 dia</p></td>
+<td data-local-id=3D"be6cac53-16ab-4294-ad54-d095e0e35a21" class=3D"conflue=
+nceTd">
+<p local-id=3D"727e9c9f-2a8d-4c4a-851b-5c4e89d043e7">Jo=C3=A3o Pedro de Jes=
+us Perin</p></td>
+</tr>
+<tr data-local-id=3D"d6c312fb-49ff-4cc6-85bd-7e2340cc5d3a">
+<td data-local-id=3D"07abb4f3-346e-46dd-a9aa-fd496fa9c636" class=3D"conflue=
+nceTd">
+<p local-id=3D"8d98b796-feab-4ab0-b89c-f568ae6fcdb0">TOTAL</p></td>
+<td data-local-id=3D"b48827a1-150d-46b5-baa1-022324c06e54" class=3D"conflue=
+nceTd">
+<p local-id=3D"908b1314-2788-45e8-83db-8bc4abff70ef">4 dias</p></td>
+<td data-local-id=3D"4c0bf753-ea49-42f1-ace6-e4f917f3da12" class=3D"conflue=
+nceTd">
+<p local-id=3D"2c9be8fa-02f2-457d-9957-e945fe41fb2a"></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"e6792102-7043-4973-bfac-019c641040eb">9.<strong> RECURSOS NE=
+CESS=C3=81RIOS</strong></p>
+<ul local-id=3D"75c2b3b2-0764-441c-ba33-4d044a3275b6">
+<li local-id=3D"db927ba2-0f94-4429-a130-e24674464f7c">
+<p local-id=3D"1cc7c953-343f-4890-a57e-65922180b0ea">Computador com acesso =
+=C3=A0 internet (m=C3=ADnimo 8GB RAM)</p></li>
+<li local-id=3D"2cc7d33e-c2d0-482f-a1b4-4116d2820368">
+<p local-id=3D"810ccd26-8ca9-4cd1-b487-4f3f0c785208">Navegadores: Google Ch=
+rome, Firefox e Microsoft Edge (vers=C3=B5es atuais)</p></li>
+<li local-id=3D"1a878eb7-e992-44c7-99f8-c3664d870838">
+<p local-id=3D"47db5242-324b-4d33-ac36-7f48e8b7f22b">Ferramenta de captura =
+de tela</p></li>
+<li local-id=3D"52dfa3aa-81aa-43ce-bb13-2ccbf9c42a0a">
+<p local-id=3D"3083e0b1-9067-49b7-8f2a-795b2ebf84ee">Editor de texto/PDF (W=
+ord ou Google Docs)</p></li>
+</ul>
+<p local-id=3D"18f55ec2-61a6-4cac-99ee-0730f266971c">10. <strong>Achados ap=
+=C3=B3s testes:</strong></p>
+<p local-id=3D"b2c479d0-b099-4dbd-a325-ac5c7afa834b">T=C3=A9cnica: Guided T=
+our | Por: Jo=C3=A3o Pedro de Jesus Perin</p>
+<p local-id=3D"bb99bdd9-e15c-4cc3-9f63-79b246010149"><strong>Achado 01: </s=
+trong>Comportamento gen=C3=A9rico na busca com dados aleat=C3=B3rios.</p>
+<p local-id=3D"8dca20dd-907d-493e-8a1c-f2c9b4eea020"><u>Registro do Achado:=
+</u></p>
+<p local-id=3D"0f0db825-92a2-48e4-8f23-331a88e8092a">Ao inserir diferentes =
+sequ=C3=AAncias de caracteres alfab=C3=A9ticos aleat=C3=B3rios na barra de =
+pesquisa do Spotify, foi observado que o sistema retorna sempre os mesmos r=
+esultados, como o artista <em>Emilivick</em> e conte=C3=BAdos musicais infa=
+ntis, independentemente do conte=C3=BAdo da sequ=C3=AAncia aleat=C3=B3ria i=
+nformada.<br>
+N=C3=A3o =C3=A9 apresentada nenhuma mensagem indicando pesquisa inv=C3=A1li=
+da, termo inexistente ou aus=C3=AAncia de correspond=C3=AAncia com os dados=
+ inseridos. Esse comportamento ocorre de forma recorrente e pode gerar conf=
+us=C3=A3o ao usu=C3=A1rio, que n=C3=A3o consegue compreender o crit=C3=A9ri=
+o utilizado para a exibi=C3=A7=C3=A3o dos resultados.</p>
+<p local-id=3D"43a6306b-106d-4319-88e2-af03ee91a6e2"><u>Reprodu=C3=A7=C3=A3=
+o:</u></p>
+<ol start=3D"1" local-id=3D"c1af3c10-a615-46c0-a925-1bc8aa9f64c1">
+<li local-id=3D"0cb3e381-55d4-4574-af7b-6c33d3809be7">
+<p local-id=3D"d780419c-6eca-4d6a-88a2-40dbfb0fef4a">Acessar a p=C3=A1gina =
+inicial do site do Spotify;</p></li>
+<li local-id=3D"2f04699b-3073-453c-9c16-594783bbfc6e">
+<p local-id=3D"c209203f-7d0e-4d29-b445-52a7fd20867f">Inserir qualquer sequ=
+=C3=AAncia de caracteres alfab=C3=A9ticos em ordem aleat=C3=B3ria na barra =
+de pesquisa (ex: asdkjhasdkjh, qwertyuiop);</p></li>
+<li local-id=3D"2779bc3b-432f-4f56-9c95-e3a56398b46d">
+<p local-id=3D"c1fddc4d-efb4-4db1-a45c-c0bbdfebc26e">Observar que os result=
+ados apresentados permanecem os mesmos, sem rela=C3=A7=C3=A3o direta com os=
+ dados informados;</p></li>
+</ol>
+<p local-id=3D"ac20f148-92cd-45ef-831d-a69a46d6482d"><u>Prioridade:</u></p>
+<p local-id=3D"cd450517-35de-4d1b-9006-b4c4df9eee12">M=C3=A9dia</p>
+<p local-id=3D"d43a43bf-a87e-4247-89dd-635aaf9882c5"><u>Justificativa:</u><=
+/p>
+<p local-id=3D"3ba8a4d8-801c-4d43-b0c5-16031437b3aa">O comportamento observ=
+ado indica aus=C3=AAncia de feedback claro ao usu=C3=A1rio diante de pesqui=
+sas inv=C3=A1lidas ou sem correspond=C3=AAncia sem=C3=A2ntica. Embora o sis=
+tema continue funcional, a exibi=C3=A7=C3=A3o de resultados gen=C3=A9ricos =
+sem explica=C3=A7=C3=A3o pode gerar confus=C3=A3o, prejudicar a experi=C3=
+=AAncia de uso e levar o usu=C3=A1rio a interpretar incorretamente a relev=
+=C3=A2ncia dos conte=C3=BAdos apresentados, impactando a confiabilidade da =
+funcionalidade de busca.</p>
+<p local-id=3D"f526e898-2103-45e7-9b62-12e9b68a7fe5"><u>Li=C3=A7=C3=B5es ap=
+rendidas:</u></p>
+<ul local-id=3D"d07d71d3-c36f-4667-a6af-a179434b2cbb">
+<li local-id=3D"900fdaf6-6dc7-44a5-87ac-e29e2de2e29d">
+<p local-id=3D"d39980b2-fb22-443f-8108-233cfe410f00">A observa=C3=A7=C3=A3o=
+ direta durante a navega=C3=A7=C3=A3o =C3=A9 essencial para identificar com=
+portamentos n=C3=A3o expl=C3=ADcitos do sistema;</p></li>
+<li local-id=3D"6d0fb806-08c3-40d6-8a8e-e1a473be3c1c">
+<p local-id=3D"349c1005-2342-435d-a55a-8fbdb9d21f94">O comportamento =C3=A9=
+ repet=C3=ADvel ao realizar pesquisas com diferentes sequ=C3=AAncias de car=
+acteres aleat=C3=B3rios;</p></li>
+<li local-id=3D"9f3913de-a9fb-4f4d-8839-c03ab3379b43">
+<p local-id=3D"f4758e31-57ed-49a4-a36a-8fd2c1a6eb24">A aus=C3=AAncia de fee=
+dback claro ao usu=C3=A1rio pode comprometer a compreens=C3=A3o do funciona=
+mento da busca e impactar a experi=C3=AAncia de uso;</p></li>
+</ul>
+<hr local-id=3D"d83b4e95-6715-44b0-b2e1-fb575bb53f7c">
+<p local-id=3D"95477f34-22eb-46e0-b5ee-5394c04c8768"><strong>Achado 02: </s=
+trong>Falta de navega=C3=A7=C3=A3o para retorno =C3=A0 p=C3=A1gina de categ=
+orias de m=C3=BAsica</p>
+<p local-id=3D"839c0e91-25d0-4619-977c-31cf903d3aff"><u>Registro do Achado:=
+</u></p>
+<p local-id=3D"8a062543-b13d-404f-8a12-4905be55baf1">Ao navegar pelas categ=
+orias de m=C3=BAsica do Spotify (ex: Podcasts, Pop 2025, Rock, entre outras=
+), foi observado que, ao acessar uma categoria espec=C3=ADfica, n=C3=A3o ex=
+iste uma op=C3=A7=C3=A3o clara de navega=C3=A7=C3=A3o que permita retornar =
+diretamente =C3=A0 p=C3=A1gina de categorias. Para voltar, o usu=C3=A1rio p=
+recisa acessar a p=C3=A1gina principal da plataforma, perdendo o contexto d=
+a navega=C3=A7=C3=A3o anterior. Esse comportamento ocorre de forma recorren=
+te e afeta diretamente a progress=C3=A3o da navega=C3=A7=C3=A3o explorat=C3=
+=B3ria entre diferentes categorias de conte=C3=BAdo.</p>
+<p local-id=3D"f6fadbb8-0af9-4ed5-b859-3cbc4b2a8e13"><u>Reprodu=C3=A7=C3=A3=
+o:</u></p>
+<ol start=3D"1" local-id=3D"a171dd27-70d0-46ea-a64f-93dfd4ac80eb">
+<li local-id=3D"5e796390-ee42-4d37-8c25-e20cb2bf13e5">
+<p local-id=3D"bb43a1d2-2208-48b6-9428-c3b4a1c54edb">Acessar a p=C3=A1gina =
+inicial do site do Spotify;</p></li>
+<li local-id=3D"5dfeae9a-58e4-4d30-be8a-cc835c9af110">
+<p local-id=3D"b3cc534b-d7db-4d3c-a3ea-1e619a531ad2">Navegar at=C3=A9 a se=
+=C3=A7=C3=A3o de categorias de m=C3=BAsica;</p></li>
+<li local-id=3D"3c834762-3436-44e4-8152-97ef5e9bcf5b">
+<p local-id=3D"92934d61-5854-4479-9b0e-a7d65e731a28">Selecionar uma categor=
+ia espec=C3=ADfica (ex: Podcasts);</p></li>
+<li local-id=3D"6149d7e2-3c13-4b18-b734-30a093a24592">
+<p local-id=3D"ca123dcb-47f4-4f36-ab90-5dab106ffc40">Tentar retornar =C3=A0=
+ p=C3=A1gina de categorias;</p></li>
+<li local-id=3D"ebbcf3c4-1737-4583-aa19-d43b5e602215">
+<p local-id=3D"cda0f391-73eb-4c3f-a8be-b2cbb82210fb">Observar que n=C3=A3o =
+h=C3=A1 bot=C3=A3o de retorno ou breadcrumb, sendo necess=C3=A1rio voltar =
+=C3=A0 p=C3=A1gina principal;</p></li>
+</ol>
+<p local-id=3D"d01648e7-4de9-4482-8dbe-2de7ecdf9158"><u>Prioridade:</u></p>
+<p local-id=3D"fe016ba7-25e5-4141-bfe8-006316b3ad22">M=C3=A9dia</p>
+<p local-id=3D"69e5a007-ada3-46ac-857e-3c4160f24ab5"><u>Justificativa:</u><=
+/p>
+<p local-id=3D"2577dddc-b1c0-4745-a660-ac4dc600f18e">O problema caracteriza=
+ uma falha de usabilidade e navega=C3=A7=C3=A3o, impactando a experi=C3=AAn=
+cia do usu=C3=A1rio, principalmente iniciantes. A aus=C3=AAncia de um camin=
+ho claro para retorno =C3=A0 p=C3=A1gina de categorias aumenta o n=C3=BAmer=
+o de cliques necess=C3=A1rios, gera perda de contexto e dificulta a explora=
+=C3=A7=C3=A3o cont=C3=ADnua de diferentes conte=C3=BAdos musicais. Embora n=
+=C3=A3o impe=C3=A7a o uso da plataforma, compromete a fluidez da navega=C3=
+=A7=C3=A3o e a percep=C3=A7=C3=A3o de facilidade de uso.</p>
+<p local-id=3D"12e796cb-8260-46c0-bd34-ae5b83f217f8"><u>Li=C3=A7=C3=B5es ap=
+rendidas:</u></p>
+<ul local-id=3D"49f8f510-8985-441b-9225-289f11f22cd7">
+<li local-id=3D"8c656c01-d533-4bdc-9b03-0948f6b6c031">
+<p local-id=3D"877469d0-69b5-409c-92fb-37bb5833b7f4">A observa=C3=A7=C3=A3o=
+ do fluxo principal do usu=C3=A1rio =C3=A9 essencial para identificar falha=
+s de usabilidade;</p></li>
+<li local-id=3D"f57e22fc-2b58-4093-986a-cc9ea7f8af4d">
+<p local-id=3D"57bf3ed0-40ac-4ce5-aec2-5a5e017f497f">Elementos de navega=C3=
+=A7=C3=A3o hier=C3=A1rquica s=C3=A3o fundamentais para facilitar a explora=
+=C3=A7=C3=A3o de conte=C3=BAdo;</p></li>
+</ul>
+<p local-id=3D"28670ed3-47b6-467d-bbd7-051071449db8">Comportamento repet=C3=
+=ADvel ao navegar entre categorias sem op=C3=A7=C3=A3o de retorno direto;</=
+p>
+<p local-id=3D"be6b725f-d11b-4469-8759-961b6dd20656">11. <strong>MATRIZ DE =
+T=C3=89CNICAS vs ACHADOS</strong></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"45=
+f3273a-3de5-4858-a137-ac62ca8ffe9f" class=3D"confluenceTable">
+<tbody>
+<tr data-local-id=3D"192e5aa1-7d3a-4f65-a127-928d55f04b43">
+<td data-local-id=3D"5e5e6a71-8e38-4079-b682-f9f98a1e4cd6" class=3D"conflue=
+nceTd">
+<p local-id=3D"1559c729-9644-47f6-b71c-3af252e926f4"><strong>T=C3=A9cnica A=
+plicada</strong></p></td>
+<td data-local-id=3D"0e8db90b-5f91-4002-8316-94d1cde78789" class=3D"conflue=
+nceTd">
+<p local-id=3D"5085d07e-7fc5-4a40-8fac-6143de3f12a7"><strong>Achado 01</str=
+ong></p></td>
+<td data-local-id=3D"75a54bee-721f-43a5-8e9c-ce387e5d2b5f" class=3D"conflue=
+nceTd">
+<p local-id=3D"0d39c264-9569-4de7-a367-8bb762e945d2"><strong>Achado 02</str=
+ong></p></td>
+</tr>
+<tr data-local-id=3D"321b0fb8-a803-4f2e-a03a-2ac713dfec99">
+<td data-local-id=3D"24a4069a-be97-4ae1-8b15-67da92bd58ab" class=3D"conflue=
+nceTd">
+<p local-id=3D"6769e8c4-3fb8-4c40-b177-4a3fcce8dc68"><strong>Guided Tour</s=
+trong></p></td>
+<td data-local-id=3D"351f0106-0d04-4319-8671-8ceeba8de741" class=3D"conflue=
+nceTd">
+<p local-id=3D"8ce058ba-aba5-4c74-9ea5-6e8afaf29bbc"></p></td>
+<td data-local-id=3D"1848078d-a858-4629-b1be-2f4e0e5c276b" class=3D"conflue=
+nceTd">
+<p local-id=3D"f4d7800d-8426-4d44-93b7-59e6233e1fe0"><strong>=E2=9C=93</str=
+ong></p></td>
+</tr>
+<tr data-local-id=3D"6d40743a-3617-42b9-b3d8-6187efd56f12">
+<td data-local-id=3D"c1cffbf4-ea33-421e-8189-23e022b49da8" class=3D"conflue=
+nceTd">
+<p local-id=3D"6002a03e-3459-4c8a-9b9b-85e92321bac7"><strong>Data Tour</str=
+ong></p></td>
+<td data-local-id=3D"f480e651-7f5a-4b3b-b15a-6e5a827c7d4f" class=3D"conflue=
+nceTd">
+<p local-id=3D"ef312298-497e-4798-ac11-c8ccc0325212"><strong>=E2=9C=93</str=
+ong></p></td>
+<td data-local-id=3D"89409983-771c-465c-bb58-e972e54a979d" class=3D"conflue=
+nceTd">
+<p local-id=3D"ff517c90-ee7a-4f73-bdbe-d76d6d781491"></p></td>
+</tr>
+<tr data-local-id=3D"3d3e3c09-f889-4261-800f-b8fb39368e57">
+<td data-local-id=3D"23dde798-9540-49a9-ba75-e51d034d2a0d" class=3D"conflue=
+nceTd">
+<p local-id=3D"51ea0eef-9c2d-4ab1-bc14-7fe749199314"><strong>Usability Test=
+ing</strong></p></td>
+<td data-local-id=3D"bbae52da-3278-4e4d-8019-190ecdfdf757" class=3D"conflue=
+nceTd">
+<p local-id=3D"8b6cbf76-f1f5-4a73-a367-08451b005003"><strong>=E2=9C=93</str=
+ong></p></td>
+<td data-local-id=3D"d1419516-7c9d-4e4e-befe-048f1bdafd75" class=3D"conflue=
+nceTd">
+<p local-id=3D"a0a6dac1-e0cc-496b-b1fa-e9ff9016df59"><strong>=E2=9C=93</str=
+ong></p></td>
+</tr>
+<tr data-local-id=3D"3af405b3-04b3-485f-9fb5-4d44e726aa75">
+<td data-local-id=3D"28eb5e62-fdbd-49c5-b048-f8493abd8969" class=3D"conflue=
+nceTd">
+<p local-id=3D"4f7417e3-4d78-4690-9ead-8315164552b0"><strong>Scenario-Based=
+ Testing</strong></p></td>
+<td data-local-id=3D"cffe91df-c3c9-41d5-90ca-6b8532410bc7" class=3D"conflue=
+nceTd">
+<p local-id=3D"27e1b97a-db95-48ae-9e9a-134a74c99427"><strong>=E2=9C=93</str=
+ong></p></td>
+<td data-local-id=3D"8ef0ebd9-8ba9-45af-9b68-765a8e056709" class=3D"conflue=
+nceTd">
+<p local-id=3D"a0ff9971-5b23-4159-94b0-87a0679c4cce"><strong>=E2=9C=93</str=
+ong></p></td>
+</tr>
+<tr data-local-id=3D"1e79b04c-2c8e-43d3-a2d5-f71d60e8904b">
+<td data-local-id=3D"54eace10-a85e-4fa0-99ba-b81535063bed" class=3D"conflue=
+nceTd">
+<p local-id=3D"61eb6208-3a73-4438-b6f0-35673b74e345"><strong>Persona-Based =
+Testing</strong></p></td>
+<td data-local-id=3D"53b02dba-0c1f-44bd-8da3-79a448ca91fa" class=3D"conflue=
+nceTd">
+<p local-id=3D"a99f9377-7b78-4928-ba75-d21188d1a8a2"><strong>=E2=9C=93</str=
+ong></p></td>
+<td data-local-id=3D"99c70831-0ad9-4511-a2d6-763b40fb95a6" class=3D"conflue=
+nceTd">
+<p local-id=3D"43e3aaf8-6a41-474f-be95-4574a49797bf"><strong>=E2=9C=93</str=
+ong></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p local-id=3D"ad8deedf-117d-42fc-ad3f-8a0bdd3c6f0d">12. <strong>CONCLUS=C3=
+=83O</strong></p>
+<p local-id=3D"9e278e9e-1fc7-40c0-863d-caee6b463115">Este Plano de Testes f=
+oi elaborado com o objetivo de explorar de forma estruturada e profissional=
+ a aplica=C3=A7=C3=A3o web do Spotify, aplicando t=C3=A9cnicas de testes ex=
+plorat=C3=B3rios reconhecidas e documentando achados de forma clara e objet=
+iva.</p>
+<p local-id=3D"9ee61e4b-2f70-486e-bc20-c4a6962be68d"><u>Principais Achados:=
+</u></p>
+<ul local-id=3D"3ee20a37-d3be-4f93-9214-6afb20dc18d8">
+<li local-id=3D"ecd2edf7-5032-4290-8ec3-31e25c2345ad">
+<p local-id=3D"c612e893-4d72-4116-bff0-e5a516a49080">Achado 01: Comportamen=
+to gen=C3=A9rico da busca diante de dados aleat=C3=B3rios, sem feedback cla=
+ro ao usu=C3=A1rio</p></li>
+<li local-id=3D"0df72cc9-15db-4c00-a839-dddd6aa018da">
+<p local-id=3D"232c6935-18c9-441a-a8a2-4f198a9c2aab">Achado 02: Aus=C3=AAnc=
+ia de navega=C3=A7=C3=A3o direta para retorno =C3=A0 p=C3=A1gina de categor=
+ias, impactando a usabilidade</p></li>
+</ul>
+<p local-id=3D"0470b5f5-3496-4ac6-8297-94041139e2df"><u>Recomenda=C3=A7=C3=
+=B5es:</u></p>
+<ul local-id=3D"0b772dd5-ad64-4760-8e6b-994c03d8b693">
+<li local-id=3D"77a056cd-9441-42e1-93cf-d7b396e1b5ae">
+<p local-id=3D"314ed449-caf0-40a3-a211-d94ee91244f2">Melhorar o feedback da=
+ funcionalidade de busca para termos inv=C3=A1lidos</p></li>
+<li local-id=3D"7a8b6485-c025-44de-874b-69315ad98f4c">
+<p local-id=3D"58439ebe-8ff3-4264-8648-b7bbe430cb63">Implementar mecanismos=
+ de navega=C3=A7=C3=A3o hier=C3=A1rquica (ex: breadcrumb ou bot=C3=A3o de r=
+etorno)</p></li>
+<li local-id=3D"eb1f8825-83fd-4de1-b195-59ad3a92fd81">
+<p local-id=3D"233f94ce-bc48-4ea9-b537-7851ba43f6df">Priorizar ajustes de u=
+sabilidade voltados a usu=C3=A1rios iniciantes</p></li>
+</ul>
+<p local-id=3D"4ebdd852-5b4d-4e3d-aa7c-14d0fadfc7b3"><u>Li=C3=A7=C3=B5es Ap=
+rendidas:</u></p>
+<ul local-id=3D"137f21eb-3ce0-4009-9892-2a21fea84c92">
+<li local-id=3D"9388c1fb-8c80-4f3e-b39b-2f1f7a87ab60">
+<p local-id=3D"59eb53b5-07df-4869-afd0-676161759e41">Testes explorat=C3=B3r=
+ios baseados em tour proporcionam maior cobertura e foco</p></li>
+<li local-id=3D"9c703c79-4b0f-4c49-9a9c-2ac206b29844">
+<p local-id=3D"c6aa150a-3bc9-4397-917b-9893fdf62609">Pequenas falhas de usa=
+bilidade impactam diretamente a experi=C3=AAncia do usu=C3=A1rio</p></li>
+<li local-id=3D"acc41e6a-d913-46fe-86c2-5854e3f83441">
+<p local-id=3D"68f165f9-fad9-47b3-be78-913747163030">A observa=C3=A7=C3=A3o=
+ do comportamento real do sistema =C3=A9 essencial para identificar riscos =
+n=C3=A3o documentados</p></li>
+</ul>
+<p local-id=3D"a8538772-aa9c-44f4-90a3-19421e72d0ff">13.<strong>Refer=C3=AA=
+ncias:</strong></p>
+<p local-id=3D"0ccbbf56-8b20-4d34-a74b-2fb77a1c295a">PEREIRA, Tiago. <em>Ex=
+ploratory Testing Tours: Uma =E2=80=9Cexcurs=C3=A3o=E2=80=9D na met=C3=A1fo=
+ra do turista</em>. Medium, 05 abr. 2020. Dispon=C3=ADvel em: <a class=3D"e=
+xternal-link" href=3D"https://medium.com/@tiago.peng/exploratory-testing-to=
+urs-uma-excurs%C3%A3o-na-met%C3%A9fora-do-turista-b2ae41ec555" rel=3D"nofol=
+low">Exploratory Testing Tours: Uma =E2=80=9Cexcurs=C3=A3o=E2=80=9D=E2=80=
+=8B na met=C3=A1fora do turista</a> . Acesso em: 7 jan. 2026.</p>
+<p local-id=3D"8e7e3fae-1e2d-438d-9c2d-8b0d45fa8a30">PARASCHIV, Petruta. <e=
+m>Using test tours in exploratory testing strategy for QA teams</em>. Xray =
+Blog, 22 jun. 2023. Dispon=C3=ADvel em: <a class=3D"external-link" href=3D"=
+https://www.getxray.app/blog/test-tours-exploratory-testing-strategy-qa-tea=
+ms?utm_source=3Dchatgpt.com" rel=3D"nofollow">https://www.getxray.app/blog/=
+test-tours-exploratory-testing-strategy-qa-teams</a>. Acesso em: 7 jan. 202=
+6.</p>
+<p local-id=3D"d1ec2a6a-28fc-4bd0-8ba9-60a025592288">SOFTWARE TESTING HELP.=
+ Exploratory Testing Tours: To Ensure Thorough Testing. <a class=3D"externa=
+l-link" href=3D"https://www.softwaretestinghelp.com/exploratory-testing-tou=
+rs/" rel=3D"nofollow">https://www.softwaretestinghelp.com/exploratory-testi=
+ng-tours/</a><strong>.</strong></p>
+    </div>
+</body>
+</html>
+------=_Part_14_1138162690.1772034597722--
